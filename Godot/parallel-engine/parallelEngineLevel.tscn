@@ -1,0 +1,351 @@
+[gd_scene format=3 uid="uid://u5gd41816gts"]
+
+[ext_resource type="PackedScene" uid="uid://cudnprayhbayp" path="res://KenneyImport/wall-block.fbx" id="1_flcrd"]
+[ext_resource type="PackedScene" uid="uid://br5r27820ahg6" path="res://KenneyImport/roof-left.fbx" id="2_4lhu6"]
+[ext_resource type="PackedScene" uid="uid://cdvfpasmxqpvl" path="res://KenneyImport/wall-doorway-round.fbx" id="3_3ewhh"]
+[ext_resource type="PackedScene" uid="uid://cs33if7131odg" path="res://KenneyImport/wall-window-glass.fbx" id="4_ap64b"]
+[ext_resource type="PackedScene" uid="uid://brolk5vxsn5ce" path="res://KenneyImport/wall-detail-horizontal.fbx" id="5_k1bw8"]
+[ext_resource type="PackedScene" uid="uid://bti1nbren15nn" path="res://KenneyImport/roof-gable-end.fbx" id="6_xcayc"]
+[ext_resource type="PackedScene" uid="uid://dokrxf8atvvnh" path="res://KenneyImport/roof-corner-round.fbx" id="7_3mgl7"]
+[ext_resource type="PackedScene" uid="uid://dx0l6ralmg0yn" path="res://KenneyImport/wall-corner-diagonal.fbx" id="8_636yg"]
+[ext_resource type="PackedScene" uid="uid://gxl0rfn7th45" path="res://KenneyImport/wall-wood-window-round.fbx" id="9_y6bkd"]
+[ext_resource type="PackedScene" uid="uid://c60iymw44d1j5" path="res://KenneyImport/wall-wood.fbx" id="10_6233j"]
+[ext_resource type="PackedScene" uid="uid://cf3ejcmdx6tk7" path="res://KenneyImport/wall-wood-doorway-square.fbx" id="11_s2w6m"]
+[ext_resource type="PackedScene" uid="uid://bmkax0ae17crw" path="res://KenneyImport/wall-wood-detail-diagonal.fbx" id="12_ua8ev"]
+[ext_resource type="PackedScene" uid="uid://b42niecahcp8e" path="res://KenneyImport/roof-high-gable-top.fbx" id="13_alnm1"]
+[ext_resource type="PackedScene" uid="uid://dhexcll2sc4bb" path="res://KenneyImport/wall-detail-cross.fbx" id="14_k6r6f"]
+[ext_resource type="PackedScene" uid="uid://b0gwra3ropils" path="res://KenneyImport/wall-broken.fbx" id="15_7ctri"]
+[ext_resource type="PackedScene" uid="uid://dw4crhq6i0gqq" path="res://KenneyImport/wheel.fbx" id="16_ajjpa"]
+[ext_resource type="PackedScene" uid="uid://x5y2srf7d63r" path="res://KenneyImport/fountain-square-detail.fbx" id="17_57iqx"]
+[ext_resource type="PackedScene" uid="uid://dghh3jymk04b7" path="res://KenneyImport/lantern.fbx" id="18_sq31e"]
+[ext_resource type="PackedScene" uid="uid://bgvdqkqpeworj" path="res://KenneyImport/tree-high-crooked.fbx" id="19_cyryi"]
+[ext_resource type="PackedScene" uid="uid://bhubj2l1xj4rr" path="res://KenneyImport/tree-high.fbx" id="20_4hnkc"]
+[ext_resource type="PackedScene" uid="uid://cawytvf8t615q" path="res://KenneyImport/tree-crooked.fbx" id="21_405fn"]
+[ext_resource type="PackedScene" uid="uid://c8xfmpnqoeld" path="res://KenneyImport/tree.fbx" id="22_15sr3"]
+[ext_resource type="PackedScene" uid="uid://00eur3edk8vd" path="res://KenneyImport/cart-high.fbx" id="23_12iob"]
+[ext_resource type="PackedScene" uid="uid://cqex04ll61sib" path="res://KenneyImport/stall.fbx" id="24_bwkh0"]
+[ext_resource type="PackedScene" uid="uid://bgipaawxna0wh" path="res://KenneyImport/stall-bench.fbx" id="25_1t5dj"]
+[ext_resource type="PackedScene" uid="uid://cbvttc0vxxg18" path="res://KenneyImport/stall-stool.fbx" id="26_ck147"]
+[ext_resource type="PackedScene" uid="uid://cqkrswok30tyf" path="res://KenneyImport/stall-green.fbx" id="27_m4l3s"]
+[ext_resource type="PackedScene" uid="uid://dk6jmbyr3dker" path="res://KenneyImport/stall-red.fbx" id="28_xyj83"]
+
+[node name="Node3D" type="Node3D" unique_id=930929449]
+
+[node name="line of houses" type="Node3D" parent="." unique_id=7232088]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 0)
+
+[node name="White House" type="Node3D" parent="line of houses" unique_id=348612124]
+
+[node name="wall-block" parent="line of houses/White House" unique_id=1154007033 instance=ExtResource("1_flcrd")]
+transform = Transform3D(1, 0, 0, 0, -1, -8.742278e-08, 0, 8.742278e-08, -1, 0, 1, 1)
+
+[node name="roof-left" parent="line of houses/White House" unique_id=624196508 instance=ExtResource("2_4lhu6")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0, 1, 2)
+
+[node name="wall-doorway-round" parent="line of houses/White House" unique_id=120869369 instance=ExtResource("3_3ewhh")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 0, 0, 2)
+
+[node name="wall-window-glass" parent="line of houses/White House" unique_id=391135735 instance=ExtResource("4_ap64b")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 0, 1, 1)
+
+[node name="wall-window-glass2" parent="line of houses/White House" unique_id=1121677278 instance=ExtResource("4_ap64b")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 1)
+
+[node name="wall-detail-horizontal" parent="line of houses/White House" unique_id=1410544614 instance=ExtResource("5_k1bw8")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 0, 1, 1)
+
+[node name="wall-detail-horizontal2" parent="line of houses/White House" unique_id=1552737856 instance=ExtResource("5_k1bw8")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 0, 0, 2)
+
+[node name="roof-gable-end" parent="line of houses/White House" unique_id=1134620909 instance=ExtResource("6_xcayc")]
+transform = Transform3D(1, 0, -1.7484555e-07, 0, 1, 0, 1.7484555e-07, 0, 1, 0, 2, 1)
+
+[node name="roof-gable-end2" parent="line of houses/White House" unique_id=387240436 instance=ExtResource("6_xcayc")]
+transform = Transform3D(-1, 0, 2.6226832e-07, 0, 1, 0, -2.6226832e-07, 0, -1, 1, 2, 1)
+
+[node name="roof-corner-round" parent="line of houses/White House" unique_id=304887330 instance=ExtResource("7_3mgl7")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 1, 1, 2)
+
+[node name="wall-block2" parent="line of houses/White House" unique_id=1035166304 instance=ExtResource("1_flcrd")]
+transform = Transform3D(1, 0, 0, 0, -1, -8.742278e-08, 0, 8.742278e-08, -1, 0, 1, 1)
+
+[node name="wall-block3" parent="line of houses/White House" unique_id=1917526598 instance=ExtResource("1_flcrd")]
+transform = Transform3D(1, 0, 0, 0, -1, -8.742278e-08, 0, 8.742278e-08, -1, 1, 1, 1)
+
+[node name="wall-detail-horizontal3" parent="line of houses/White House" unique_id=369224938 instance=ExtResource("5_k1bw8")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 1, 1, 1)
+
+[node name="wall-detail-horizontal4" parent="line of houses/White House" unique_id=511995196 instance=ExtResource("5_k1bw8")]
+transform = Transform3D(1.3113416e-07, 0, 1, 0, 1, 0, -1, 0, 1.3113416e-07, 1, 1, 1)
+
+[node name="wall-corner-diagonal" parent="line of houses/White House" unique_id=1096425626 instance=ExtResource("8_636yg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 2)
+
+[node name="Brown Hosue" type="Node3D" parent="line of houses" unique_id=863727866]
+
+[node name="wall-wood-window-round" parent="line of houses/Brown Hosue" unique_id=1239192060 instance=ExtResource("9_y6bkd")]
+
+[node name="wall-wood" parent="line of houses/Brown Hosue" unique_id=1299280451 instance=ExtResource("10_6233j")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0, 0, 0)
+
+[node name="wall-wood-doorway-square" parent="line of houses/Brown Hosue" unique_id=251052861 instance=ExtResource("11_s2w6m")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+
+[node name="wall-wood-detail-diagonal" parent="line of houses/Brown Hosue" unique_id=1345137808 instance=ExtResource("12_ua8ev")]
+transform = Transform3D(1, 0, 0, 0, -1, -8.742278e-08, 0, 8.742278e-08, -1, 0, 2, 0)
+
+[node name="wall-wood2" parent="line of houses/Brown Hosue" unique_id=35184159 instance=ExtResource("10_6233j")]
+transform = Transform3D(1.3113416e-07, 0, -1, 0, 1, 0, 1, 0, 1.3113416e-07, 0, 0, 0)
+
+[node name="wall-wood3" parent="line of houses/Brown Hosue" unique_id=1646313110 instance=ExtResource("10_6233j")]
+transform = Transform3D(4.371139e-08, -8.742278e-08, -1, -3.821371e-15, -1, 8.742278e-08, -1, 0, -4.371139e-08, 0, 2, 0)
+
+[node name="wall-wood4" parent="line of houses/Brown Hosue" unique_id=1411235221 instance=ExtResource("10_6233j")]
+transform = Transform3D(-1.3113416e-07, 8.742278e-08, 1, -1.1464112e-14, -1, 8.742278e-08, 1, 0, 1.3113416e-07, 0, 2, 0)
+
+[node name="wall-wood-window-round2" parent="line of houses/Brown Hosue" unique_id=70038451 instance=ExtResource("9_y6bkd")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 1, 0)
+
+[node name="roof-high-gable-top" parent="line of houses/Brown Hosue" unique_id=1737241097 instance=ExtResource("13_alnm1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 0)
+
+[node name="Brown Hosue2" type="Node3D" parent="line of houses" unique_id=702045257]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1)
+
+[node name="wall-wood-window-round" parent="line of houses/Brown Hosue2" unique_id=103697931 instance=ExtResource("9_y6bkd")]
+
+[node name="wall-wood" parent="line of houses/Brown Hosue2" unique_id=346881971 instance=ExtResource("10_6233j")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0, 0, 0)
+
+[node name="wall-wood-detail-diagonal" parent="line of houses/Brown Hosue2" unique_id=827872791 instance=ExtResource("12_ua8ev")]
+transform = Transform3D(1, 0, 0, 0, -1, -8.742278e-08, 0, 8.742278e-08, -1, 0, 2, 0)
+
+[node name="wall-wood2" parent="line of houses/Brown Hosue2" unique_id=531548161 instance=ExtResource("10_6233j")]
+transform = Transform3D(1.3113416e-07, 0, -1, 0, 1, 0, 1, 0, 1.3113416e-07, 0, 0, 0)
+
+[node name="wall-wood3" parent="line of houses/Brown Hosue2" unique_id=538796411 instance=ExtResource("10_6233j")]
+transform = Transform3D(4.371139e-08, -8.742278e-08, -1, -3.821371e-15, -1, 8.742278e-08, -1, 0, -4.371139e-08, 0, 2, 0)
+
+[node name="wall-wood4" parent="line of houses/Brown Hosue2" unique_id=334247155 instance=ExtResource("10_6233j")]
+transform = Transform3D(-1.3113416e-07, 8.742278e-08, 1, -1.1464112e-14, -1, 8.742278e-08, 1, 0, 1.3113416e-07, 0, 2, 0)
+
+[node name="roof-high-gable-top" parent="line of houses/Brown Hosue2" unique_id=577444280 instance=ExtResource("13_alnm1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 0)
+
+[node name="wall-wood-detail-diagonal2" parent="line of houses/Brown Hosue2" unique_id=830695066 instance=ExtResource("12_ua8ev")]
+transform = Transform3D(-1, -7.642742e-15, 8.742278e-08, 0, -1, -8.742278e-08, 8.742278e-08, -8.742278e-08, 1, 0, 2, 0)
+
+[node name="wall-wood-detail-diagonal3" parent="line of houses/Brown Hosue2" unique_id=634879418 instance=ExtResource("12_ua8ev")]
+transform = Transform3D(-1, -1.5285484e-14, 8.742278e-08, 0, 1, 1.7484555e-07, -8.742278e-08, 1.7484555e-07, -1, 0, 0, 0)
+
+[node name="White House small" type="Node3D" parent="line of houses" unique_id=706014084]
+
+[node name="wall-detail-cross2" parent="line of houses/White House small" unique_id=1473323311 instance=ExtResource("14_k6r6f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2)
+
+[node name="wall-detail-horizontal2" parent="line of houses/White House small" unique_id=2093020165 instance=ExtResource("5_k1bw8")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0, 0, -2)
+
+[node name="wall-broken" parent="line of houses/White House small" unique_id=194312323 instance=ExtResource("15_7ctri")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 0, 0, -2)
+
+[node name="wheel" parent="line of houses/White House small" unique_id=1537256188 instance=ExtResource("16_ajjpa")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2)
+
+[node name="line of houses" type="Node3D" parent="line of houses" unique_id=1264437038]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -3, 0, 4)
+
+[node name="White House" type="Node3D" parent="line of houses/line of houses" unique_id=894986482]
+
+[node name="wall-block" parent="line of houses/line of houses/White House" unique_id=1748476323 instance=ExtResource("1_flcrd")]
+transform = Transform3D(1, 0, 0, 0, -1, -8.742278e-08, 0, 8.742278e-08, -1, 0, 1, 1)
+
+[node name="roof-left" parent="line of houses/line of houses/White House" unique_id=1579852501 instance=ExtResource("2_4lhu6")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0, 1, 2)
+
+[node name="wall-doorway-round" parent="line of houses/line of houses/White House" unique_id=770684128 instance=ExtResource("3_3ewhh")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 0, 0, 2)
+
+[node name="wall-window-glass" parent="line of houses/line of houses/White House" unique_id=1639699038 instance=ExtResource("4_ap64b")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 0, 1, 1)
+
+[node name="wall-window-glass2" parent="line of houses/line of houses/White House" unique_id=1440914783 instance=ExtResource("4_ap64b")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 1)
+
+[node name="wall-detail-horizontal" parent="line of houses/line of houses/White House" unique_id=614971136 instance=ExtResource("5_k1bw8")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 0, 1, 1)
+
+[node name="wall-detail-horizontal2" parent="line of houses/line of houses/White House" unique_id=211660933 instance=ExtResource("5_k1bw8")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 0, 0, 2)
+
+[node name="roof-gable-end" parent="line of houses/line of houses/White House" unique_id=119114647 instance=ExtResource("6_xcayc")]
+transform = Transform3D(1, 0, -1.7484555e-07, 0, 1, 0, 1.7484555e-07, 0, 1, 0, 2, 1)
+
+[node name="roof-gable-end2" parent="line of houses/line of houses/White House" unique_id=529452735 instance=ExtResource("6_xcayc")]
+transform = Transform3D(-1, 0, 2.6226832e-07, 0, 1, 0, -2.6226832e-07, 0, -1, 1, 2, 1)
+
+[node name="roof-corner-round" parent="line of houses/line of houses/White House" unique_id=674675519 instance=ExtResource("7_3mgl7")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 1, 1, 2)
+
+[node name="wall-block2" parent="line of houses/line of houses/White House" unique_id=1933711500 instance=ExtResource("1_flcrd")]
+transform = Transform3D(1, 0, 0, 0, -1, -8.742278e-08, 0, 8.742278e-08, -1, 0, 1, 1)
+
+[node name="wall-block3" parent="line of houses/line of houses/White House" unique_id=702967542 instance=ExtResource("1_flcrd")]
+transform = Transform3D(1, 0, 0, 0, -1, -8.742278e-08, 0, 8.742278e-08, -1, 1, 1, 1)
+
+[node name="wall-detail-horizontal3" parent="line of houses/line of houses/White House" unique_id=1051808601 instance=ExtResource("5_k1bw8")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 1, 1, 1)
+
+[node name="wall-detail-horizontal4" parent="line of houses/line of houses/White House" unique_id=1267255303 instance=ExtResource("5_k1bw8")]
+transform = Transform3D(1.3113416e-07, 0, 1, 0, 1, 0, -1, 0, 1.3113416e-07, 1, 1, 1)
+
+[node name="wall-corner-diagonal" parent="line of houses/line of houses/White House" unique_id=982881692 instance=ExtResource("8_636yg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 2)
+
+[node name="Brown Hosue" type="Node3D" parent="line of houses/line of houses" unique_id=2092404181]
+
+[node name="wall-wood-window-round" parent="line of houses/line of houses/Brown Hosue" unique_id=14924868 instance=ExtResource("9_y6bkd")]
+
+[node name="wall-wood" parent="line of houses/line of houses/Brown Hosue" unique_id=1492462130 instance=ExtResource("10_6233j")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0, 0, 0)
+
+[node name="wall-wood-doorway-square" parent="line of houses/line of houses/Brown Hosue" unique_id=771610777 instance=ExtResource("11_s2w6m")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+
+[node name="wall-wood-detail-diagonal" parent="line of houses/line of houses/Brown Hosue" unique_id=1565381675 instance=ExtResource("12_ua8ev")]
+transform = Transform3D(1, 0, 0, 0, -1, -8.742278e-08, 0, 8.742278e-08, -1, 0, 2, 0)
+
+[node name="wall-wood2" parent="line of houses/line of houses/Brown Hosue" unique_id=997803899 instance=ExtResource("10_6233j")]
+transform = Transform3D(1.3113416e-07, 0, -1, 0, 1, 0, 1, 0, 1.3113416e-07, 0, 0, 0)
+
+[node name="wall-wood3" parent="line of houses/line of houses/Brown Hosue" unique_id=524733211 instance=ExtResource("10_6233j")]
+transform = Transform3D(4.371139e-08, -8.742278e-08, -1, -3.821371e-15, -1, 8.742278e-08, -1, 0, -4.371139e-08, 0, 2, 0)
+
+[node name="wall-wood4" parent="line of houses/line of houses/Brown Hosue" unique_id=1560896261 instance=ExtResource("10_6233j")]
+transform = Transform3D(-1.3113416e-07, 8.742278e-08, 1, -1.1464112e-14, -1, 8.742278e-08, 1, 0, 1.3113416e-07, 0, 2, 0)
+
+[node name="wall-wood-window-round2" parent="line of houses/line of houses/Brown Hosue" unique_id=1788489100 instance=ExtResource("9_y6bkd")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 1, 0)
+
+[node name="roof-high-gable-top" parent="line of houses/line of houses/Brown Hosue" unique_id=546700889 instance=ExtResource("13_alnm1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 0)
+
+[node name="Brown Hosue2" type="Node3D" parent="line of houses/line of houses" unique_id=1790555216]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1)
+
+[node name="wall-wood-window-round" parent="line of houses/line of houses/Brown Hosue2" unique_id=817439672 instance=ExtResource("9_y6bkd")]
+
+[node name="wall-wood" parent="line of houses/line of houses/Brown Hosue2" unique_id=1003336172 instance=ExtResource("10_6233j")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0, 0, 0)
+
+[node name="wall-wood-detail-diagonal" parent="line of houses/line of houses/Brown Hosue2" unique_id=159965496 instance=ExtResource("12_ua8ev")]
+transform = Transform3D(1, 0, 0, 0, -1, -8.742278e-08, 0, 8.742278e-08, -1, 0, 2, 0)
+
+[node name="wall-wood2" parent="line of houses/line of houses/Brown Hosue2" unique_id=1298781049 instance=ExtResource("10_6233j")]
+transform = Transform3D(1.3113416e-07, 0, -1, 0, 1, 0, 1, 0, 1.3113416e-07, 0, 0, 0)
+
+[node name="wall-wood3" parent="line of houses/line of houses/Brown Hosue2" unique_id=1626289785 instance=ExtResource("10_6233j")]
+transform = Transform3D(4.371139e-08, -8.742278e-08, -1, -3.821371e-15, -1, 8.742278e-08, -1, 0, -4.371139e-08, 0, 2, 0)
+
+[node name="wall-wood4" parent="line of houses/line of houses/Brown Hosue2" unique_id=488725145 instance=ExtResource("10_6233j")]
+transform = Transform3D(-1.3113416e-07, 8.742278e-08, 1, -1.1464112e-14, -1, 8.742278e-08, 1, 0, 1.3113416e-07, 0, 2, 0)
+
+[node name="roof-high-gable-top" parent="line of houses/line of houses/Brown Hosue2" unique_id=7782506 instance=ExtResource("13_alnm1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 0)
+
+[node name="wall-wood-detail-diagonal2" parent="line of houses/line of houses/Brown Hosue2" unique_id=1058524646 instance=ExtResource("12_ua8ev")]
+transform = Transform3D(-1, -7.642742e-15, 8.742278e-08, 0, -1, -8.742278e-08, 8.742278e-08, -8.742278e-08, 1, 0, 2, 0)
+
+[node name="wall-wood-detail-diagonal3" parent="line of houses/line of houses/Brown Hosue2" unique_id=1287001133 instance=ExtResource("12_ua8ev")]
+transform = Transform3D(-1, -1.5285484e-14, 8.742278e-08, 0, 1, 1.7484555e-07, -8.742278e-08, 1.7484555e-07, -1, 0, 0, 0)
+
+[node name="White House small" type="Node3D" parent="line of houses/line of houses" unique_id=2121664808]
+
+[node name="wall-detail-cross2" parent="line of houses/line of houses/White House small" unique_id=527849775 instance=ExtResource("14_k6r6f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2)
+
+[node name="wall-detail-horizontal2" parent="line of houses/line of houses/White House small" unique_id=2111460870 instance=ExtResource("5_k1bw8")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0, 0, -2)
+
+[node name="wall-broken" parent="line of houses/line of houses/White House small" unique_id=706317917 instance=ExtResource("15_7ctri")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 0, 0, -2)
+
+[node name="wheel" parent="line of houses/line of houses/White House small" unique_id=371428261 instance=ExtResource("16_ajjpa")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2)
+
+[node name="fountain-square-detail" parent="." unique_id=627437936 instance=ExtResource("17_57iqx")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 0)
+
+[node name="lantern2" parent="fountain-square-detail" unique_id=94899553 instance=ExtResource("18_sq31e")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 3)
+
+[node name="lantern" parent="fountain-square-detail" unique_id=1290610552 instance=ExtResource("18_sq31e")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, -1)
+
+[node name="tree-high-crooked" parent="." unique_id=1967719172 instance=ExtResource("19_cyryi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.2620692, 0, 3.3749118)
+
+[node name="tree-high" parent="tree-high-crooked" unique_id=1748565733 instance=ExtResource("20_4hnkc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.04818201, 0, 1.2151461)
+
+[node name="tree-crooked" parent="tree-high-crooked" unique_id=1868427823 instance=ExtResource("21_405fn")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.61752534, 0, 0.48545575)
+
+[node name="tree" parent="tree-high-crooked" unique_id=46548766 instance=ExtResource("22_15sr3")]
+transform = Transform3D(0.75, 0, 0, 0, 0.75, 0, 0, 0, 0.75, 0.8995507, -2.3841858e-07, 1.0256219)
+
+[node name="cart-high" parent="." unique_id=82230514 instance=ExtResource("23_12iob")]
+transform = Transform3D(0.49999997, 0, 0.86602545, 0, 1, 0, -0.86602545, 0, 0.49999997, 0, 0, -3)
+
+[node name="wheel" parent="cart-high" unique_id=99899840 instance=ExtResource("16_ajjpa")]
+transform = Transform3D(0.49729198, 0, -0.8675833, 0, 1, 0, 0.8675833, 0, 0.49729198, -0.4458341, 0, -0.9085645)
+
+[node name="stall" parent="." unique_id=2140832998 instance=ExtResource("24_bwkh0")]
+transform = Transform3D(2.9802322e-08, 0, 1, 0, 1, 0, -1, 0, 2.9802322e-08, -1.7411809, 0, -3.034074)
+
+[node name="stall-bench" parent="stall" unique_id=900606575 instance=ExtResource("25_1t5dj")]
+transform = Transform3D(0.9659258, 0, -0.25881904, 0, 1, 0, 0.25881904, 0, 0.9659258, 0.56680846, 0, -0.097812995)
+
+[node name="stall-stool" parent="stall" unique_id=1188483541 instance=ExtResource("26_ck147")]
+transform = Transform3D(0.7046837, 0, 0.70952153, 0, 1, 0, -0.70952153, 0, 0.7046837, -0.48007178, 0, 0)
+
+[node name="stall-stool2" parent="stall" unique_id=1940619062 instance=ExtResource("26_ck147")]
+transform = Transform3D(-0.002460897, 0, -0.99999696, 0, 1, 0, 0.99999696, 0, -0.002460897, -0.47920325, 0, -0.35293618)
+
+[node name="Stall" type="Node3D" parent="." unique_id=657626016]
+transform = Transform3D(0.8660254, 0, -0.5, 0, 1, 0, 0.5, 0, 0.8660254, -1.3343121, 0, 1.8345124)
+
+[node name="stall-green" parent="Stall" unique_id=966119869 instance=ExtResource("27_m4l3s")]
+transform = Transform3D(0.70710677, 0, -0.70710677, 0, 1, 0, 0.70710677, 0, 0.70710677, -3.8079782, 0, -2.8079782)
+
+[node name="stall-red" parent="Stall" unique_id=510403022 instance=ExtResource("28_xyj83")]
+transform = Transform3D(0.97556907, 0, -0.21969298, 0, 1, 0, 0.21969298, 0, 0.97556907, -4.4907274, 0, -1.6204298)
+
+[node name="stall-green2" parent="Stall" unique_id=722183672 instance=ExtResource("27_m4l3s")]
+transform = Transform3D(0.9659258, 0, 0.2588191, 0, 1, 0, -0.2588191, 0, 0.9659258, -4.426989, 0, -0.3578813)
+
+[node name="Glade" type="Node3D" parent="." unique_id=420833867]
+
+[node name="tree-high-crooked3" parent="Glade" unique_id=1177522942 instance=ExtResource("19_cyryi")]
+transform = Transform3D(1.1920929e-07, 0, 1, 0, 1, 0, -1, 0, 1.1920929e-07, -6.8719053, 0, 2.3488226)
+
+[node name="tree-high" parent="Glade/tree-high-crooked3" unique_id=786093024 instance=ExtResource("20_4hnkc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.04818201, 0, 1.2151461)
+
+[node name="tree-crooked" parent="Glade/tree-high-crooked3" unique_id=401856208 instance=ExtResource("21_405fn")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.61752534, 0, 0.48545575)
+
+[node name="tree" parent="Glade/tree-high-crooked3" unique_id=1878108663 instance=ExtResource("22_15sr3")]
+transform = Transform3D(0.75, 0, 0, 0, 0.75, 0, 0, 0, 0.75, 0.8995507, -2.3841858e-07, 1.0256219)
+
+[node name="tree-high-crooked2" parent="Glade" unique_id=1703598595 instance=ExtResource("19_cyryi")]
+transform = Transform3D(0.49999997, 0, -0.86602545, 0, 1, 0, 0.86602545, 0, 0.49999997, -4.8719053, 0, 2.8749118)
+
+[node name="tree-high" parent="Glade/tree-high-crooked2" unique_id=282099101 instance=ExtResource("20_4hnkc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.04818201, 0, 1.2151461)
+
+[node name="tree-crooked" parent="Glade/tree-high-crooked2" unique_id=1967333653 instance=ExtResource("21_405fn")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.61752534, 0, 0.48545575)
+
+[node name="tree" parent="Glade/tree-high-crooked2" unique_id=1243310315 instance=ExtResource("22_15sr3")]
+transform = Transform3D(0.75, 0, 0, 0, 0.75, 0, 0, 0, 0.75, 0.8995507, -2.3841858e-07, 1.0256219)
