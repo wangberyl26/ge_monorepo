@@ -1,0 +1,40 @@
+[gd_scene format=3 uid="uid://cy72sqgsw4b6b"]
+
+[ext_resource type="PackedScene" uid="uid://bs72ogkvdd7d6" path="res://addons/proto_controller/proto_controller.tscn" id="1_ft1oc"]
+[ext_resource type="Script" uid="uid://bn8hhp3go7gml" path="res://coinTrigger.gd" id="2_w7ijh"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ft1oc"]
+size = Vector3(30, 1, 30)
+
+[sub_resource type="BoxMesh" id="BoxMesh_w7ijh"]
+size = Vector3(30, 1, 30)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_ft1oc"]
+height = 0.1
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_ft1oc"]
+
+[node name="Node3D" type="Node3D" unique_id=462139397]
+
+[node name="ProtoController" parent="." unique_id=1799512923 groups=["Player"] instance=ExtResource("1_ft1oc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4.1886597, 0)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=2026656615]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=1212548163]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.5, 0)
+shape = SubResource("BoxShape3D_ft1oc")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D" unique_id=302886174]
+mesh = SubResource("BoxMesh_w7ijh")
+
+[node name="Area3D" type="Area3D" parent="." unique_id=330682487]
+transform = Transform3D(1, 0, 0, 0, 0.18300766, -0.9831115, 0, 0.9831115, 0.18300766, 0, 2.1683202, -3.040349)
+script = ExtResource("2_w7ijh")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Area3D" unique_id=327194305]
+mesh = SubResource("CylinderMesh_ft1oc")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D" unique_id=422421983]
+shape = SubResource("CylinderShape3D_ft1oc")
