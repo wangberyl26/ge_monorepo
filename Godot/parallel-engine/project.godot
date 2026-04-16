@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="ParallelEngine"
-run/main_scene="uid://cqi55ukr1138q"
+run/main_scene="uid://cy72sqgsw4b6b"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
 
