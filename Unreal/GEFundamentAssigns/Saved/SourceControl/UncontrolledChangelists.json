@@ -7,7 +7,10 @@
 			"files": [
 				"C:/Users/Norah/Documents/GitHub/ge_monorepo/Unreal/GEFundamentAssigns/Content/Blueprints/BP_Caller.uasset",
 				"C:/Users/Norah/Documents/GitHub/ge_monorepo/Unreal/GEFundamentAssigns/Content/Blueprints/BP_Receiver.uasset",
-				"C:/Users/Norah/Documents/GitHub/ge_monorepo/Unreal/GEFundamentAssigns/Content/Handshake.umap"
+				"C:/Users/Norah/Documents/GitHub/ge_monorepo/Unreal/GEFundamentAssigns/Content/Handshake.umap",
+				"C:/Users/Norah/Documents/GitHub/ge_monorepo/Unreal/GEFundamentAssigns/Content/Level/Handshake.umap",
+				"C:/Users/Norah/Documents/GitHub/ge_monorepo/Unreal/GEFundamentAssigns/Content/Level/CoinTrigger.umap",
+				"C:/Users/Norah/Documents/GitHub/ge_monorepo/Unreal/GEFundamentAssigns/Content/Blueprints/BP_Coin.uasset"
 			]
 		}
 	]
