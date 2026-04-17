@@ -6,7 +6,7 @@ public class Caller : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        Debug.Log("Calling on Receiver.");
+        print("Calling on Receiver.");
         receiver.OnCalled();
     }
 

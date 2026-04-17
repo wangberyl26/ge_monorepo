@@ -78,7 +78,7 @@ namespace StarterAssets
         // cinemachine
         private float _cinemachineTargetYaw;
         private float _cinemachineTargetPitch;
-
+        
         // player
         private float _speed;
         private float _animationBlend;
@@ -159,7 +159,12 @@ namespace StarterAssets
             JumpAndGravity();
             GroundedCheck();
             Move();
+            Attack();
         }
+
+        // I tried using the code provided on Canvas, but InputSystemActions would not work no matter what I did,
+        // so i found a free player assets on the unity store and used that/modified it for attack + coin trigger. still learned a decent amount. :)
+
 
         private void LateUpdate()
         {
@@ -210,7 +215,7 @@ namespace StarterAssets
             CinemachineCameraTarget.transform.rotation = Quaternion.Euler(_cinemachineTargetPitch + CameraAngleOverride,
                 _cinemachineTargetYaw, 0.0f);
         }
-
+       
         private void Move()
         {
             // set target speed based on move speed, sprint speed and if sprint is pressed
@@ -302,6 +307,7 @@ namespace StarterAssets
                 // Jump
                 if (_input.jump && _jumpTimeoutDelta <= 0.0f)
                 {
+                    
                     // the square root of H * -2 * G = how much velocity needed to reach desired height
                     _verticalVelocity = Mathf.Sqrt(JumpHeight * -2f * Gravity);
 
@@ -345,6 +351,14 @@ namespace StarterAssets
             if (_verticalVelocity < _terminalVelocity)
             {
                 _verticalVelocity += Gravity * Time.deltaTime;
+            }
+        }
+
+        private void Attack()
+        {
+            if (_input.attack)
+            {
+                Debug.Log("You clicked the left mouse button!! That means I now ATTACK!!!");
             }
         }
 
