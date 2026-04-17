@@ -10,7 +10,12 @@
 				"C:/Users/Norah/Documents/GitHub/ge_monorepo/Unreal/GEFundamentAssigns/Content/Handshake.umap",
 				"C:/Users/Norah/Documents/GitHub/ge_monorepo/Unreal/GEFundamentAssigns/Content/Level/Handshake.umap",
 				"C:/Users/Norah/Documents/GitHub/ge_monorepo/Unreal/GEFundamentAssigns/Content/Level/CoinTrigger.umap",
-				"C:/Users/Norah/Documents/GitHub/ge_monorepo/Unreal/GEFundamentAssigns/Content/Blueprints/BP_Coin.uasset"
+				"C:/Users/Norah/Documents/GitHub/ge_monorepo/Unreal/GEFundamentAssigns/Content/Blueprints/BP_Coin.uasset",
+				"C:/Users/Norah/Documents/GitHub/ge_monorepo/Unreal/GEFundamentAssigns/Content/Level/Attack.umap",
+				"C:/Users/Norah/Documents/GitHub/ge_monorepo/Unreal/GEFundamentAssigns/Content/Input/Actions/IA_Attack.uasset",
+				"C:/Users/Norah/Documents/GitHub/ge_monorepo/Unreal/GEFundamentAssigns/Content/Input/IMC_Player.uasset",
+				"C:/Users/Norah/Documents/GitHub/ge_monorepo/Unreal/GEFundamentAssigns/Content/Input/IMC_Default.uasset",
+				"C:/Users/Norah/Documents/GitHub/ge_monorepo/Unreal/GEFundamentAssigns/Content/ThirdPerson/Blueprints/BP_ThirdPersonPlayerController.uasset"
 			]
 		}
 	]
