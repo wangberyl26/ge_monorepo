@@ -4602,3 +4602,6 @@ Error compiling Pin - Node: Output Particle Spawn Pin: Out -
 FPackageName: Skipped package /Game/Fantastic_Dungeon_Pack/maps/map_dungeon_overview_modular_BuiltData has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Content/Fantastic_Dungeon_Pack/maps/map_dungeon_overview_modular_BuiltData'. Perhaps it has been deleted or was not synced?
 
 [2026.04.18-00.57.20:127][ 20]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Saved/SourceControl/UncontrolledChangelists.json
+[2026.04.18-00.58.01:076][594]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 986.778198
+[2026.04.18-00.58.02:078][597]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.18-00.58.02:078][597]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 987.445068, Update Interval: 341.210968
