@@ -7,9 +7,18 @@
 			"files": [
 				"C:/Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Content/Fantastic_Dungeon_Pack/maps/FINALPROJECTLEVEL_BuiltData.uasset",
 				"C:/Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Content/Fantastic_Dungeon_Pack/maps/FINALPROJECTLEVEL.umap",
+				"C:/Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
+				"C:/Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Content/Input/Actions/IA_Pickup.uasset",
+				"C:/Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Content/Input/IMC_Default.uasset",
+				"C:/Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Content/Blueprints/BP_Trash.uasset",
+				"C:/Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Content/Meshes/SM_FireHydrant.uasset",
+				"C:/Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Content/Meshes/SM_Box_01.uasset",
+				"C:/Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Content/Blueprints/WBP_PlayerHUD.uasset",
+				"C:/Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Content/Materials/M_RoundProgressBar.uasset",
+				"C:/Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Content/Materials/M_RoundProgressBar_Inst.uasset",
+				"C:/Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Content/Blueprints/WBP_ProgressHold.uasset",
 				"C:/Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Content/Fantastic_Dungeon_Pack/maps/map_dungeon_level_3_hall.umap",
 				"C:/Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Content/Fantastic_Dungeon_Pack/maps/map_dungeon_level_3_hall_BuiltData.uasset",
-				"C:/Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
 				"C:/Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Content/Fantastic_Dungeon_Pack/maps/map_dungeon_level_5_bossroom_BuiltData.uasset",
 				"C:/Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Content/Fantastic_Dungeon_Pack/maps/map_dungeon_level_5_bossroom.umap",
 				"C:/Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Content/Fantastic_Dungeon_Pack/maps/map_dungeon_level_4_temple_BuiltData.uasset",
@@ -18,8 +27,6 @@
 				"C:/Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Content/Fantastic_Dungeon_Pack/maps/map_dungeon_level_2_entrance.umap",
 				"C:/Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Content/Fantastic_Dungeon_Pack/maps/map_dungeon_level_1_dungeon_BuiltData.uasset",
 				"C:/Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Content/Fantastic_Dungeon_Pack/maps/map_dungeon_level_1_dungeon.umap",
-				"C:/Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Content/Input/Actions/IA_Pickup.uasset",
-				"C:/Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Content/Input/IMC_Default.uasset",
 				"C:/Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Content/Fantastic_Dungeon_Pack/maps/map_dungeon_overview_modular_BuiltData.uasset",
 				"C:/Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Content/Fantastic_Dungeon_Pack/maps/map_dungeon_overview_modular.umap"
 			]
