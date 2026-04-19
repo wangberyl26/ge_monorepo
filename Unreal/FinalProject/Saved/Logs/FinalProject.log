@@ -8597,3 +8597,1159 @@ Stats: n/a
 [2026.04.19-04.41.11:822][937]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2026.04.19-04.41.11:823][937]AssetCheck: /Game/Blueprints/WBP_PlayerHUD Validating asset
 [2026.04.19-04.41.11:824][937]AssetCheck: /Game/Blueprints/WBP_EndGame Validating asset
+[2026.04.19-04.44.05:167][147]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.04.19-04.44.05:184][147]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.04.19-04.44.05:184][147]LogPlayLevel: Creating play world package: /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTLEVEL
+[2026.04.19-04.44.05:356][147]LogPlayLevel: PIE: StaticDuplicateObject took: (0.172171s)
+[2026.04.19-04.44.05:356][147]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Fantastic_Dungeon_Pack/maps/FINALPROJECTLEVEL.FINALPROJECTLEVEL to /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTLEVEL.FINALPROJECTLEVEL (0.172222s)
+[2026.04.19-04.44.05:391][147]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2026.04.19-04.44.05:396][147]LogChaosDD: Creating Chaos Debug Draw Scene for world FINALPROJECTLEVEL
+[2026.04.19-04.44.05:399][147]LogPlayLevel: PIE: World Init took: (0.002840s)
+[2026.04.19-04.44.05:400][147]LogAudio: Display: Creating Audio Device:                 Id: 66, Scope: Unique, Realtime: True
+[2026.04.19-04.44.05:400][147]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.04.19-04.44.05:400][147]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.04.19-04.44.05:400][147]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.04.19-04.44.05:400][147]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.04.19-04.44.05:400][147]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.04.19-04.44.05:400][147]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.04.19-04.44.05:400][147]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.04.19-04.44.05:400][147]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.04.19-04.44.05:400][147]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.04.19-04.44.05:400][147]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.04.19-04.44.05:400][147]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.04.19-04.44.05:403][147]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.04.19-04.44.05:437][147]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Logitech PRO X Gaming Headset)
+[2026.04.19-04.44.05:438][147]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.04.19-04.44.05:438][147]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.04.19-04.44.05:438][147]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.04.19-04.44.05:439][147]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=66
+[2026.04.19-04.44.05:439][147]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=66
+[2026.04.19-04.44.05:442][147]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=66
+[2026.04.19-04.44.05:442][147]LogInit: FAudioDevice initialized with ID 66.
+[2026.04.19-04.44.05:442][147]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=66
+[2026.04.19-04.44.05:442][147]LogAudio: Display: Audio Device (ID: 66) registered with world 'FINALPROJECTLEVEL'.
+[2026.04.19-04.44.05:442][147]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 66
+[2026.04.19-04.44.05:450][147]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.04.19-04.44.05:517][147]LogWorld: Bringing World /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTLEVEL.FINALPROJECTLEVEL up for play (max tick rate 0) at 2026.04.18-22.44.05
+[2026.04.19-04.44.05:519][147]LogWorld: Bringing up level for play took: 0.068962
+[2026.04.19-04.44.05:523][147]LogOnline: OSS: Created online subsystem instance for: :Context_101
+[2026.04.19-04.44.05:536][147]PIE: Server logged in
+[2026.04.19-04.44.05:539][147]PIE: Play in editor total start time 0.358 seconds.
+[2026.04.19-04.44.05:745][148]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.04.19-04.44.05:875][149]LogPSOHitching: Encountered 100 PSO creation hitches so far (39 graphics, 61 compute). 0 of them were precached.
+[2026.04.19-04.44.10:063][402]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.19-04.44.10:063][402]LogWorld: BeginTearingDown for /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTLEVEL
+[2026.04.19-04.44.10:065][402]LogWorld: UWorld::CleanupWorld for FINALPROJECTLEVEL, bSessionEnded=true, bCleanupResources=true
+[2026.04.19-04.44.10:080][402]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.19-04.44.10:085][402]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.04.19-04.44.10:098][402]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.19-04.44.10:142][402]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.04.19-04.44.10:142][402]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 66
+[2026.04.19-04.44.10:142][402]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=66, StreamState=4
+[2026.04.19-04.44.10:146][402]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=66, StreamState=2
+[2026.04.19-04.44.10:151][402]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.19-04.44.10:168][402]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2026.04.19-04.44.10:284][403]LogPlayLevel: Display: Destroying online subsystem :Context_101
+[2026.04.19-04.44.33:459][568]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 19299.806641
+[2026.04.19-04.44.33:676][587]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.19-04.44.33:676][587]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 19300.009766, Update Interval: 345.409698
+[2026.04.19-04.44.41:674][316]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2026.04.19-04.44.43:067][406]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.04.19-04.44.43:077][406]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.04.19-04.44.43:101][406]LogPlayLevel: Creating play world package: /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTLEVEL
+[2026.04.19-04.44.43:269][406]LogPlayLevel: PIE: StaticDuplicateObject took: (0.167451s)
+[2026.04.19-04.44.43:269][406]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Fantastic_Dungeon_Pack/maps/FINALPROJECTLEVEL.FINALPROJECTLEVEL to /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTLEVEL.FINALPROJECTLEVEL (0.167502s)
+[2026.04.19-04.44.43:300][406]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2026.04.19-04.44.43:306][406]LogChaosDD: Creating Chaos Debug Draw Scene for world FINALPROJECTLEVEL
+[2026.04.19-04.44.43:308][406]LogPlayLevel: PIE: World Init took: (0.002383s)
+[2026.04.19-04.44.43:309][406]LogAudio: Display: Creating Audio Device:                 Id: 67, Scope: Unique, Realtime: True
+[2026.04.19-04.44.43:309][406]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.04.19-04.44.43:309][406]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.04.19-04.44.43:309][406]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.04.19-04.44.43:309][406]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.04.19-04.44.43:309][406]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.04.19-04.44.43:309][406]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.04.19-04.44.43:309][406]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.04.19-04.44.43:309][406]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.04.19-04.44.43:309][406]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.04.19-04.44.43:309][406]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.04.19-04.44.43:309][406]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.04.19-04.44.43:312][406]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.04.19-04.44.43:338][406]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Logitech PRO X Gaming Headset)
+[2026.04.19-04.44.43:339][406]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.04.19-04.44.43:339][406]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.04.19-04.44.43:339][406]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.04.19-04.44.43:339][406]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=67
+[2026.04.19-04.44.43:339][406]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=67
+[2026.04.19-04.44.43:342][406]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=67
+[2026.04.19-04.44.43:342][406]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=67
+[2026.04.19-04.44.43:342][406]LogInit: FAudioDevice initialized with ID 67.
+[2026.04.19-04.44.43:342][406]LogAudio: Display: Audio Device (ID: 67) registered with world 'FINALPROJECTLEVEL'.
+[2026.04.19-04.44.43:342][406]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 67
+[2026.04.19-04.44.43:347][406]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.04.19-04.44.43:411][406]LogWorld: Bringing World /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTLEVEL.FINALPROJECTLEVEL up for play (max tick rate 0) at 2026.04.18-22.44.43
+[2026.04.19-04.44.43:412][406]LogWorld: Bringing up level for play took: 0.063899
+[2026.04.19-04.44.43:415][406]LogOnline: OSS: Created online subsystem instance for: :Context_102
+[2026.04.19-04.44.43:427][406]PIE: Server logged in
+[2026.04.19-04.44.43:431][406]PIE: Play in editor total start time 0.354 seconds.
+[2026.04.19-04.44.43:576][407]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.04.19-04.44.50:193][833]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.19-04.44.50:193][833]LogWorld: BeginTearingDown for /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTLEVEL
+[2026.04.19-04.44.50:194][833]LogWorld: UWorld::CleanupWorld for FINALPROJECTLEVEL, bSessionEnded=true, bCleanupResources=true
+[2026.04.19-04.44.50:209][833]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.19-04.44.50:215][833]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.04.19-04.44.50:227][833]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.19-04.44.50:271][833]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.04.19-04.44.50:271][833]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 67
+[2026.04.19-04.44.50:271][833]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=67, StreamState=4
+[2026.04.19-04.44.50:273][833]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=67, StreamState=2
+[2026.04.19-04.44.50:279][833]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.19-04.44.50:296][833]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2026.04.19-04.44.50:411][834]LogPlayLevel: Display: Destroying online subsystem :Context_102
+[2026.04.19-04.44.53:129][ 19]Cmd: TRANSACTION UNDO
+[2026.04.19-04.44.53:129][ 19]LogEditorTransaction: Undo Create Pin Link
+[2026.04.19-04.45.08:427][102]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2026.04.19-04.45.18:652][718]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2026.04.19-04.45.18:660][718]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.19-04.45.18:779][718]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2026.04.19-04.45.19:287][718]LogSavePackage: Moving output files for package: /Game/Fantastic_Dungeon_Pack/maps/FINALPROJECTLEVEL
+[2026.04.19-04.45.19:288][718]LogSavePackage: Moving '../../../../../../Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Saved/FINALPROJECTLEVELE15DB9184AFA7A5944B6B49D26758AA7.tmp' to '../../../../../../Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Content/Fantastic_Dungeon_Pack/maps/FINALPROJECTLEVEL.umap'
+[2026.04.19-04.45.19:313][718]LogFileHelpers: All files are already saved.
+[2026.04.19-04.45.19:313][718]LogFileHelpers: Saving map 'FINALPROJECTLEVEL' took 0.598
+[2026.04.19-04.45.19:314][718]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/WBP_PlayerHUD] ([2] browsable assets)...
+[2026.04.19-04.45.19:318][718]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/WBP_PlayerHUD.WBP_PlayerHUD]
+[2026.04.19-04.45.19:318][718]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/WBP_PlayerHUD]
+[2026.04.19-04.45.19:318][718]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/WBP_PlayerHUD" FILE="../../../../../../Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Content/Blueprints/WBP_PlayerHUD.uasset" SILENT=true
+[2026.04.19-04.45.19:343][718]LogSavePackage: Moving output files for package: /Game/Blueprints/WBP_PlayerHUD
+[2026.04.19-04.45.19:344][718]LogSavePackage: Moving '../../../../../../Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Saved/WBP_PlayerHUD434691494D403EFF8C28E19DC7172E71.tmp' to '../../../../../../Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Content/Blueprints/WBP_PlayerHUD.uasset'
+[2026.04.19-04.45.19:358][718]LogFileHelpers: InternalPromptForCheckoutAndSave took 697.929 ms (total: 16.4 sec)
+[2026.04.19-04.45.19:448][718]LogContentValidation: Display: Starting to validate 2 assets
+[2026.04.19-04.45.19:448][718]LogContentValidation: Enabled validators:
+[2026.04.19-04.45.19:448][718]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.19-04.45.19:448][718]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.19-04.45.19:448][718]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.19-04.45.19:448][718]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.19-04.45.19:448][718]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.19-04.45.19:448][718]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.19-04.45.19:448][718]AssetCheck: /Game/Fantastic_Dungeon_Pack/maps/FINALPROJECTLEVEL Validating asset
+[2026.04.19-04.45.19:450][718]AssetCheck: /Game/Blueprints/WBP_PlayerHUD Validating asset
+[2026.04.19-04.45.58:928][113]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2026.04.19-04.46.39:586][182]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.04.19-04.46.39:595][182]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.04.19-04.46.39:619][182]LogPlayLevel: Creating play world package: /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTLEVEL
+[2026.04.19-04.46.39:786][182]LogPlayLevel: PIE: StaticDuplicateObject took: (0.167249s)
+[2026.04.19-04.46.39:786][182]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Fantastic_Dungeon_Pack/maps/FINALPROJECTLEVEL.FINALPROJECTLEVEL to /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTLEVEL.FINALPROJECTLEVEL (0.167305s)
+[2026.04.19-04.46.39:819][182]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2026.04.19-04.46.39:824][182]LogChaosDD: Creating Chaos Debug Draw Scene for world FINALPROJECTLEVEL
+[2026.04.19-04.46.39:826][182]LogPlayLevel: PIE: World Init took: (0.002448s)
+[2026.04.19-04.46.39:827][182]LogAudio: Display: Creating Audio Device:                 Id: 68, Scope: Unique, Realtime: True
+[2026.04.19-04.46.39:827][182]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.04.19-04.46.39:827][182]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.04.19-04.46.39:827][182]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.04.19-04.46.39:827][182]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.04.19-04.46.39:827][182]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.04.19-04.46.39:827][182]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.04.19-04.46.39:827][182]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.04.19-04.46.39:827][182]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.04.19-04.46.39:827][182]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.04.19-04.46.39:827][182]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.04.19-04.46.39:827][182]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.04.19-04.46.39:831][182]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.04.19-04.46.39:857][182]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Logitech PRO X Gaming Headset)
+[2026.04.19-04.46.39:857][182]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.04.19-04.46.39:857][182]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.04.19-04.46.39:857][182]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.04.19-04.46.39:857][182]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=68
+[2026.04.19-04.46.39:857][182]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=68
+[2026.04.19-04.46.39:860][182]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=68
+[2026.04.19-04.46.39:860][182]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=68
+[2026.04.19-04.46.39:860][182]LogInit: FAudioDevice initialized with ID 68.
+[2026.04.19-04.46.39:860][182]LogAudio: Display: Audio Device (ID: 68) registered with world 'FINALPROJECTLEVEL'.
+[2026.04.19-04.46.39:860][182]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 68
+[2026.04.19-04.46.39:866][182]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.04.19-04.46.39:941][182]LogWorld: Bringing World /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTLEVEL.FINALPROJECTLEVEL up for play (max tick rate 0) at 2026.04.18-22.46.39
+[2026.04.19-04.46.39:943][182]LogWorld: Bringing up level for play took: 0.075777
+[2026.04.19-04.46.39:945][182]LogOnline: OSS: Created online subsystem instance for: :Context_103
+[2026.04.19-04.46.39:958][182]PIE: Server logged in
+[2026.04.19-04.46.39:962][182]PIE: Play in editor total start time 0.367 seconds.
+[2026.04.19-04.46.40:106][183]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.04.19-04.48.58:847][362]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.19-04.48.58:847][362]LogWorld: BeginTearingDown for /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTLEVEL
+[2026.04.19-04.48.58:848][362]LogWorld: UWorld::CleanupWorld for FINALPROJECTLEVEL, bSessionEnded=true, bCleanupResources=true
+[2026.04.19-04.48.58:864][362]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.19-04.48.58:869][362]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.04.19-04.48.58:882][362]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.19-04.48.58:924][362]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.04.19-04.48.58:924][362]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 68
+[2026.04.19-04.48.58:924][362]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=68, StreamState=4
+[2026.04.19-04.48.58:927][362]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=68, StreamState=2
+[2026.04.19-04.48.58:932][362]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.19-04.48.58:949][362]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2026.04.19-04.48.59:083][363]LogPlayLevel: Display: Destroying online subsystem :Context_103
+[2026.04.19-04.49.59:555][705]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2026.04.19-04.50.14:770][994]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2026.04.19-04.50.16:025][994]LogSlate: Window 'Save Content' being destroyed
+[2026.04.19-04.50.16:039][994]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.19-04.50.16:098][994]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/WBP_PlayerHUD] ([2] browsable assets)...
+[2026.04.19-04.50.16:101][994]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/WBP_PlayerHUD.WBP_PlayerHUD]
+[2026.04.19-04.50.16:101][994]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/WBP_PlayerHUD]
+[2026.04.19-04.50.16:101][994]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/WBP_PlayerHUD" FILE="../../../../../../Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Content/Blueprints/WBP_PlayerHUD.uasset" SILENT=true
+[2026.04.19-04.50.16:129][994]LogSavePackage: Moving output files for package: /Game/Blueprints/WBP_PlayerHUD
+[2026.04.19-04.50.16:130][994]LogSavePackage: Moving '../../../../../../Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Saved/WBP_PlayerHUDD8DB43C445B88A5EA23550A79C734B5B.tmp' to '../../../../../../Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Content/Blueprints/WBP_PlayerHUD.uasset'
+[2026.04.19-04.50.16:197][994]LogFileHelpers: InternalPromptForCheckoutAndSave took 158.808 ms (total: 16.6 sec)
+[2026.04.19-04.50.16:197][994]LogStreaming: Display: FlushAsyncLoading(713): 1 QueuedPackages, 0 AsyncPackages
+[2026.04.19-04.50.16:230][994]LogChaosDD: Creating Chaos Debug Draw Scene for world FINALPROJECTUTORIAL
+[2026.04.19-04.50.16:362][994]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_04_C_7_GEN_VARIABLE_BP_PROP_skeleton_dungeon_04_C_CAT) with IsValid() == false
+[2026.04.19-04.50.16:366][994]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_03_C_4_GEN_VARIABLE_BP_PROP_skeleton_dungeon_03_C_CAT) with IsValid() == false
+[2026.04.19-04.50.16:369][994]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_02_C_5_GEN_VARIABLE_BP_PROP_skeleton_dungeon_02_C_CAT) with IsValid() == false
+[2026.04.19-04.50.16:372][994]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_01_C_4_GEN_VARIABLE_BP_PROP_skeleton_dungeon_01_C_CAT) with IsValid() == false
+[2026.04.19-04.50.16:375][994]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_02_C_6_GEN_VARIABLE_BP_PROP_skeleton_dungeon_02_C_CAT) with IsValid() == false
+[2026.04.19-04.50.16:378][994]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_04_C_8_GEN_VARIABLE_BP_PROP_skeleton_dungeon_04_C_CAT) with IsValid() == false
+[2026.04.19-04.50.16:382][994]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_04_C_9_GEN_VARIABLE_BP_PROP_skeleton_dungeon_04_C_CAT) with IsValid() == false
+[2026.04.19-04.50.16:385][994]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_01_C_5_GEN_VARIABLE_BP_PROP_skeleton_dungeon_01_C_CAT) with IsValid() == false
+[2026.04.19-04.50.16:389][994]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_03_C_5_GEN_VARIABLE_BP_PROP_skeleton_dungeon_03_C_CAT) with IsValid() == false
+[2026.04.19-04.50.16:392][994]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_01_C_6_GEN_VARIABLE_BP_PROP_skeleton_dungeon_01_C_CAT) with IsValid() == false
+[2026.04.19-04.50.16:395][994]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_02_C_7_GEN_VARIABLE_BP_PROP_skeleton_dungeon_02_C_CAT) with IsValid() == false
+[2026.04.19-04.50.16:398][994]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_03_C_6_GEN_VARIABLE_BP_PROP_skeleton_dungeon_03_C_CAT) with IsValid() == false
+[2026.04.19-04.50.16:413][994]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_04_C_7_GEN_VARIABLE_BP_PROP_skeleton_dungeon_04_C_CAT) with IsValid() == false
+[2026.04.19-04.50.16:416][994]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_03_C_4_GEN_VARIABLE_BP_PROP_skeleton_dungeon_03_C_CAT) with IsValid() == false
+[2026.04.19-04.50.16:419][994]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_02_C_5_GEN_VARIABLE_BP_PROP_skeleton_dungeon_02_C_CAT) with IsValid() == false
+[2026.04.19-04.50.16:423][994]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_01_C_4_GEN_VARIABLE_BP_PROP_skeleton_dungeon_01_C_CAT) with IsValid() == false
+[2026.04.19-04.50.16:426][994]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_02_C_6_GEN_VARIABLE_BP_PROP_skeleton_dungeon_02_C_CAT) with IsValid() == false
+[2026.04.19-04.50.16:430][994]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_04_C_8_GEN_VARIABLE_BP_PROP_skeleton_dungeon_04_C_CAT) with IsValid() == false
+[2026.04.19-04.50.16:433][994]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_04_C_9_GEN_VARIABLE_BP_PROP_skeleton_dungeon_04_C_CAT) with IsValid() == false
+[2026.04.19-04.50.16:437][994]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_01_C_5_GEN_VARIABLE_BP_PROP_skeleton_dungeon_01_C_CAT) with IsValid() == false
+[2026.04.19-04.50.16:440][994]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_03_C_5_GEN_VARIABLE_BP_PROP_skeleton_dungeon_03_C_CAT) with IsValid() == false
+[2026.04.19-04.50.16:443][994]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_01_C_6_GEN_VARIABLE_BP_PROP_skeleton_dungeon_01_C_CAT) with IsValid() == false
+[2026.04.19-04.50.16:446][994]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_02_C_7_GEN_VARIABLE_BP_PROP_skeleton_dungeon_02_C_CAT) with IsValid() == false
+[2026.04.19-04.50.16:449][994]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_03_C_6_GEN_VARIABLE_BP_PROP_skeleton_dungeon_03_C_CAT) with IsValid() == false
+[2026.04.19-04.50.16:461][994]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Fantastic_Dungeon_Pack/maps/FINALPROJECTUTORIAL.FINALPROJECTUTORIAL
+[2026.04.19-04.50.16:461][994]Cmd: MAP LOAD FILE="../../../../../../Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Content/Fantastic_Dungeon_Pack/maps/FINALPROJECTUTORIAL.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2026.04.19-04.50.16:528][994]LogWorld: UWorld::CleanupWorld for FINALPROJECTLEVEL, bSessionEnded=true, bCleanupResources=true
+[2026.04.19-04.50.16:529][994]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.19-04.50.16:580][994]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.04.19-04.50.16:607][994]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2026.04.19-04.50.16:615][994]LogWorld: UWorld::CleanupWorld for FINALPROJECTUTORIAL, bSessionEnded=true, bCleanupResources=true
+[2026.04.19-04.50.16:625][994]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.19-04.50.16:660][994]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2026.04.19-04.50.16:701][994]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2026.04.19-04.50.16:736][994]LogAudio: Display: Audio Device (ID: 1) registered with world 'FINALPROJECTUTORIAL'.
+[2026.04.19-04.50.16:736][994]LogChaosDD: Creating Chaos Debug Draw Scene for world FINALPROJECTUTORIAL
+[2026.04.19-04.50.16:949][994]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_04_C_7_GEN_VARIABLE_BP_PROP_skeleton_dungeon_04_C_CAT) with IsValid() == false
+[2026.04.19-04.50.16:953][994]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_03_C_4_GEN_VARIABLE_BP_PROP_skeleton_dungeon_03_C_CAT) with IsValid() == false
+[2026.04.19-04.50.16:958][994]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_02_C_5_GEN_VARIABLE_BP_PROP_skeleton_dungeon_02_C_CAT) with IsValid() == false
+[2026.04.19-04.50.16:962][994]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_01_C_4_GEN_VARIABLE_BP_PROP_skeleton_dungeon_01_C_CAT) with IsValid() == false
+[2026.04.19-04.50.16:967][994]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_02_C_6_GEN_VARIABLE_BP_PROP_skeleton_dungeon_02_C_CAT) with IsValid() == false
+[2026.04.19-04.50.16:972][994]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_04_C_8_GEN_VARIABLE_BP_PROP_skeleton_dungeon_04_C_CAT) with IsValid() == false
+[2026.04.19-04.50.16:977][994]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_04_C_9_GEN_VARIABLE_BP_PROP_skeleton_dungeon_04_C_CAT) with IsValid() == false
+[2026.04.19-04.50.16:982][994]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_01_C_5_GEN_VARIABLE_BP_PROP_skeleton_dungeon_01_C_CAT) with IsValid() == false
+[2026.04.19-04.50.16:986][994]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_03_C_5_GEN_VARIABLE_BP_PROP_skeleton_dungeon_03_C_CAT) with IsValid() == false
+[2026.04.19-04.50.16:990][994]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_01_C_6_GEN_VARIABLE_BP_PROP_skeleton_dungeon_01_C_CAT) with IsValid() == false
+[2026.04.19-04.50.16:995][994]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_02_C_7_GEN_VARIABLE_BP_PROP_skeleton_dungeon_02_C_CAT) with IsValid() == false
+[2026.04.19-04.50.17:000][994]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_03_C_6_GEN_VARIABLE_BP_PROP_skeleton_dungeon_03_C_CAT) with IsValid() == false
+[2026.04.19-04.50.17:027][994]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_04_C_7_GEN_VARIABLE_BP_PROP_skeleton_dungeon_04_C_CAT) with IsValid() == false
+[2026.04.19-04.50.17:033][994]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_03_C_4_GEN_VARIABLE_BP_PROP_skeleton_dungeon_03_C_CAT) with IsValid() == false
+[2026.04.19-04.50.17:037][994]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_02_C_5_GEN_VARIABLE_BP_PROP_skeleton_dungeon_02_C_CAT) with IsValid() == false
+[2026.04.19-04.50.17:042][994]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_01_C_4_GEN_VARIABLE_BP_PROP_skeleton_dungeon_01_C_CAT) with IsValid() == false
+[2026.04.19-04.50.17:046][994]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_02_C_6_GEN_VARIABLE_BP_PROP_skeleton_dungeon_02_C_CAT) with IsValid() == false
+[2026.04.19-04.50.17:051][994]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_04_C_8_GEN_VARIABLE_BP_PROP_skeleton_dungeon_04_C_CAT) with IsValid() == false
+[2026.04.19-04.50.17:055][994]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_04_C_9_GEN_VARIABLE_BP_PROP_skeleton_dungeon_04_C_CAT) with IsValid() == false
+[2026.04.19-04.50.17:060][994]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_01_C_5_GEN_VARIABLE_BP_PROP_skeleton_dungeon_01_C_CAT) with IsValid() == false
+[2026.04.19-04.50.17:064][994]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_03_C_5_GEN_VARIABLE_BP_PROP_skeleton_dungeon_03_C_CAT) with IsValid() == false
+[2026.04.19-04.50.17:069][994]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_01_C_6_GEN_VARIABLE_BP_PROP_skeleton_dungeon_01_C_CAT) with IsValid() == false
+[2026.04.19-04.50.17:074][994]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_02_C_7_GEN_VARIABLE_BP_PROP_skeleton_dungeon_02_C_CAT) with IsValid() == false
+[2026.04.19-04.50.17:079][994]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_03_C_6_GEN_VARIABLE_BP_PROP_skeleton_dungeon_03_C_CAT) with IsValid() == false
+[2026.04.19-04.50.17:177][994]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2026.04.19-04.50.17:221][994]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2026.04.19-04.50.17:233][994]Cmd: MAP CHECKDEP NOCLEARLOG
+[2026.04.19-04.50.17:234][994]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.101ms to complete.
+[2026.04.19-04.50.17:315][994]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.19-04.50.17:315][994]LogContentValidation: Enabled validators:
+[2026.04.19-04.50.17:315][994]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.19-04.50.17:315][994]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.19-04.50.17:315][994]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.19-04.50.17:315][994]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.19-04.50.17:315][994]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.19-04.50.17:315][994]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.19-04.50.17:316][994]AssetCheck: /Game/Blueprints/WBP_PlayerHUD Validating asset
+[2026.04.19-04.50.17:702][995]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.04.19-04.50.19:382][105]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.04.19-04.50.19:393][105]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.04.19-04.50.19:415][105]LogPlayLevel: Creating play world package: /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTUTORIAL
+[2026.04.19-04.50.19:433][105]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018641s)
+[2026.04.19-04.50.19:433][105]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Fantastic_Dungeon_Pack/maps/FINALPROJECTUTORIAL.FINALPROJECTUTORIAL to /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTUTORIAL.FINALPROJECTUTORIAL (0.018694s)
+[2026.04.19-04.50.19:464][105]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2026.04.19-04.50.19:472][105]LogChaosDD: Creating Chaos Debug Draw Scene for world FINALPROJECTUTORIAL
+[2026.04.19-04.50.19:474][105]LogPlayLevel: PIE: World Init took: (0.002151s)
+[2026.04.19-04.50.19:476][105]LogAudio: Display: Creating Audio Device:                 Id: 69, Scope: Unique, Realtime: True
+[2026.04.19-04.50.19:476][105]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.04.19-04.50.19:476][105]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.04.19-04.50.19:476][105]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.04.19-04.50.19:476][105]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.04.19-04.50.19:476][105]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.04.19-04.50.19:476][105]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.04.19-04.50.19:476][105]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.04.19-04.50.19:476][105]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.04.19-04.50.19:476][105]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.04.19-04.50.19:476][105]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.04.19-04.50.19:476][105]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.04.19-04.50.19:479][105]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.04.19-04.50.19:506][105]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Logitech PRO X Gaming Headset)
+[2026.04.19-04.50.19:506][105]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.04.19-04.50.19:506][105]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.04.19-04.50.19:506][105]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.04.19-04.50.19:507][105]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=69
+[2026.04.19-04.50.19:507][105]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=69
+[2026.04.19-04.50.19:509][105]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=69
+[2026.04.19-04.50.19:509][105]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=69
+[2026.04.19-04.50.19:509][105]LogInit: FAudioDevice initialized with ID 69.
+[2026.04.19-04.50.19:510][105]LogAudio: Display: Audio Device (ID: 69) registered with world 'FINALPROJECTUTORIAL'.
+[2026.04.19-04.50.19:510][105]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 69
+[2026.04.19-04.50.19:514][105]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.04.19-04.50.19:613][105]LogWorld: Bringing World /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTUTORIAL.FINALPROJECTUTORIAL up for play (max tick rate 0) at 2026.04.18-22.50.19
+[2026.04.19-04.50.19:613][105]LogWorld: Bringing up level for play took: 0.098335
+[2026.04.19-04.50.19:616][105]LogOnline: OSS: Created online subsystem instance for: :Context_104
+[2026.04.19-04.50.19:627][105]PIE: Server logged in
+[2026.04.19-04.50.19:630][105]PIE: Play in editor total start time 0.237 seconds.
+[2026.04.19-04.50.19:692][106]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.04.19-04.50.28:895][721]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.19-04.50.28:895][721]LogWorld: BeginTearingDown for /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTUTORIAL
+[2026.04.19-04.50.28:895][721]LogWorld: UWorld::CleanupWorld for FINALPROJECTUTORIAL, bSessionEnded=true, bCleanupResources=true
+[2026.04.19-04.50.28:909][721]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.19-04.50.28:911][721]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.04.19-04.50.28:922][721]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.19-04.50.28:951][721]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.19-04.50.28:952][721]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 69
+[2026.04.19-04.50.28:952][721]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=69, StreamState=4
+[2026.04.19-04.50.28:954][721]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=69, StreamState=2
+[2026.04.19-04.50.28:966][721]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2026.04.19-04.50.29:017][722]LogPlayLevel: Display: Destroying online subsystem :Context_104
+[2026.04.19-04.50.52:891][921]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 19679.593750
+[2026.04.19-04.50.52:987][931]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.19-04.50.52:987][931]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 19679.681641, Update Interval: 353.787048
+[2026.04.19-04.51.04:833][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2026.04.19-04.51.05:920][115]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.04.19-04.51.05:930][115]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.04.19-04.51.05:964][115]LogPlayLevel: Creating play world package: /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTUTORIAL
+[2026.04.19-04.51.05:983][115]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019276s)
+[2026.04.19-04.51.05:983][115]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Fantastic_Dungeon_Pack/maps/FINALPROJECTUTORIAL.FINALPROJECTUTORIAL to /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTUTORIAL.FINALPROJECTUTORIAL (0.019332s)
+[2026.04.19-04.51.06:015][115]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2026.04.19-04.51.06:022][115]LogChaosDD: Creating Chaos Debug Draw Scene for world FINALPROJECTUTORIAL
+[2026.04.19-04.51.06:024][115]LogPlayLevel: PIE: World Init took: (0.002246s)
+[2026.04.19-04.51.06:025][115]LogAudio: Display: Creating Audio Device:                 Id: 70, Scope: Unique, Realtime: True
+[2026.04.19-04.51.06:025][115]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.04.19-04.51.06:025][115]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.04.19-04.51.06:025][115]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.04.19-04.51.06:025][115]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.04.19-04.51.06:026][115]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.04.19-04.51.06:026][115]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.04.19-04.51.06:026][115]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.04.19-04.51.06:026][115]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.04.19-04.51.06:026][115]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.04.19-04.51.06:026][115]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.04.19-04.51.06:026][115]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.04.19-04.51.06:028][115]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.04.19-04.51.06:054][115]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Logitech PRO X Gaming Headset)
+[2026.04.19-04.51.06:054][115]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.04.19-04.51.06:054][115]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.04.19-04.51.06:054][115]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.04.19-04.51.06:055][115]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=70
+[2026.04.19-04.51.06:055][115]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=70
+[2026.04.19-04.51.06:057][115]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=70
+[2026.04.19-04.51.06:057][115]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=70
+[2026.04.19-04.51.06:057][115]LogInit: FAudioDevice initialized with ID 70.
+[2026.04.19-04.51.06:057][115]LogAudio: Display: Audio Device (ID: 70) registered with world 'FINALPROJECTUTORIAL'.
+[2026.04.19-04.51.06:057][115]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 70
+[2026.04.19-04.51.06:062][115]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.04.19-04.51.06:165][115]LogWorld: Bringing World /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTUTORIAL.FINALPROJECTUTORIAL up for play (max tick rate 0) at 2026.04.18-22.51.06
+[2026.04.19-04.51.06:165][115]LogWorld: Bringing up level for play took: 0.101681
+[2026.04.19-04.51.06:168][115]LogOnline: OSS: Created online subsystem instance for: :Context_105
+[2026.04.19-04.51.06:178][115]PIE: Server logged in
+[2026.04.19-04.51.06:181][115]PIE: Play in editor total start time 0.252 seconds.
+[2026.04.19-04.51.06:246][116]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.04.19-04.51.14:040][670]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Fantastic_Dungeon_Pack/maps/FINALPROJECTLEVEL"
+[2026.04.19-04.51.14:040][670]LogNet: Browse: /Game/Fantastic_Dungeon_Pack/maps/FINALPROJECTLEVEL
+[2026.04.19-04.51.14:040][670]LogLoad: LoadMap: /Game/Fantastic_Dungeon_Pack/maps/FINALPROJECTLEVEL
+[2026.04.19-04.51.14:040][670]LogWorld: BeginTearingDown for /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTUTORIAL
+[2026.04.19-04.51.14:042][670]LogWorld: UWorld::CleanupWorld for FINALPROJECTUTORIAL, bSessionEnded=true, bCleanupResources=true
+[2026.04.19-04.51.14:057][670]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.19-04.51.14:134][670]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.04.19-04.51.14:142][670]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2026.04.19-04.51.14:149][670]LogStreaming: Display: FlushAsyncLoading(715): 1 QueuedPackages, 0 AsyncPackages
+[2026.04.19-04.51.14:313][670]LogAudio: Display: Audio Device (ID: 70) registered with world 'FINALPROJECTLEVEL'.
+[2026.04.19-04.51.14:313][670]LogChaosDD: Creating Chaos Debug Draw Scene for world FINALPROJECTLEVEL
+[2026.04.19-04.51.14:315][670]LogPlayLevel: PIE: World Init took: (0.002335s)
+[2026.04.19-04.51.14:315][670]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.04.19-04.51.14:536][670]LogActor: Loaded Actor (BP_PROP_lock_dungeon_GEN_VARIABLE_BP_PROP_lock_dungeon_C_CAT) with IsValid() == false
+[2026.04.19-04.51.14:538][670]LogActor: Loaded Actor (BP_PROP_lock_dungeon_GEN_VARIABLE_BP_PROP_lock_dungeon_C_CAT) with IsValid() == false
+[2026.04.19-04.51.14:648][670]LogWorld: Bringing World /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTLEVEL.FINALPROJECTLEVEL up for play (max tick rate 0) at 2026.04.18-22.51.14
+[2026.04.19-04.51.14:649][670]LogWorld: Bringing up level for play took: 0.330169
+[2026.04.19-04.51.14:661][670]LogLoad: Took 0.620359 seconds to LoadMap(/Game/Fantastic_Dungeon_Pack/maps/FINALPROJECTLEVEL)
+[2026.04.19-04.51.14:661][670]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Fantastic_Dungeon_Pack/maps/FINALPROJECTLEVEL
+[2026.04.19-04.51.14:813][671]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.04.19-04.51.16:445][764]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.19-04.51.16:445][764]LogWorld: BeginTearingDown for /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTLEVEL
+[2026.04.19-04.51.16:446][764]LogWorld: UWorld::CleanupWorld for FINALPROJECTLEVEL, bSessionEnded=true, bCleanupResources=true
+[2026.04.19-04.51.16:462][764]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.19-04.51.16:468][764]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.04.19-04.51.16:480][764]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.19-04.51.16:524][764]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.04.19-04.51.16:524][764]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 70
+[2026.04.19-04.51.16:524][764]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=70, StreamState=4
+[2026.04.19-04.51.16:527][764]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=70, StreamState=2
+[2026.04.19-04.51.16:531][764]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.19-04.51.16:550][764]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2026.04.19-04.51.16:608][765]LogPlayLevel: Display: Destroying online subsystem :Context_105
+[2026.04.19-04.52.33:790][142]LogEditorTransaction: Undo Drag and Drop Widget
+[2026.04.19-04.52.37:502][342]LogEditorTransaction: Undo Drag and Drop Widget
+[2026.04.19-04.53.15:733][279]LogSlate: Window 'Color Picker' being destroyed
+[2026.04.19-04.53.16:148][308]LogEditorTransaction: Undo Edit Specified Color
+[2026.04.19-04.53.17:961][393]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2026.04.19-04.53.17:970][393]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.19-04.53.18:034][393]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/WBP_PlayerHUD] ([2] browsable assets)...
+[2026.04.19-04.53.18:038][393]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/WBP_PlayerHUD.WBP_PlayerHUD]
+[2026.04.19-04.53.18:038][393]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/WBP_PlayerHUD]
+[2026.04.19-04.53.18:038][393]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/WBP_PlayerHUD" FILE="../../../../../../Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Content/Blueprints/WBP_PlayerHUD.uasset" SILENT=true
+[2026.04.19-04.53.18:072][393]LogSavePackage: Moving output files for package: /Game/Blueprints/WBP_PlayerHUD
+[2026.04.19-04.53.18:073][393]LogSavePackage: Moving '../../../../../../Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Saved/WBP_PlayerHUDA5620D4145C51F7F974B0A94879B455A.tmp' to '../../../../../../Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Content/Blueprints/WBP_PlayerHUD.uasset'
+[2026.04.19-04.53.18:075][393]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/WBP_EndGame] ([2] browsable assets)...
+[2026.04.19-04.53.18:079][393]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/WBP_EndGame.WBP_EndGame]
+[2026.04.19-04.53.18:079][393]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/WBP_EndGame]
+[2026.04.19-04.53.18:079][393]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/WBP_EndGame" FILE="../../../../../../Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Content/Blueprints/WBP_EndGame.uasset" SILENT=true
+[2026.04.19-04.53.18:092][393]LogSavePackage: Moving output files for package: /Game/Blueprints/WBP_EndGame
+[2026.04.19-04.53.18:093][393]LogSavePackage: Moving '../../../../../../Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Saved/WBP_EndGame194238784F92F0D6B6A4C3A39EEB91F7.tmp' to '../../../../../../Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Content/Blueprints/WBP_EndGame.uasset'
+[2026.04.19-04.53.18:108][393]LogFileHelpers: InternalPromptForCheckoutAndSave took 137.809 ms (total: 16.7 sec)
+[2026.04.19-04.53.18:165][393]LogContentValidation: Display: Starting to validate 2 assets
+[2026.04.19-04.53.18:165][393]LogContentValidation: Enabled validators:
+[2026.04.19-04.53.18:165][393]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.19-04.53.18:165][393]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.19-04.53.18:165][393]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.19-04.53.18:165][393]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.19-04.53.18:165][393]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.19-04.53.18:166][393]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.19-04.53.18:166][393]AssetCheck: /Game/Blueprints/WBP_PlayerHUD Validating asset
+[2026.04.19-04.53.18:167][393]AssetCheck: /Game/Blueprints/WBP_EndGame Validating asset
+[2026.04.19-04.54.02:606][853]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2026.04.19-04.54.13:393][952]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2026.04.19-04.54.13:401][952]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.19-04.54.13:447][952]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/WBP_EndGame] ([2] browsable assets)...
+[2026.04.19-04.54.13:453][952]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/WBP_EndGame.WBP_EndGame]
+[2026.04.19-04.54.13:453][952]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/WBP_EndGame]
+[2026.04.19-04.54.13:453][952]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/WBP_EndGame" FILE="../../../../../../Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Content/Blueprints/WBP_EndGame.uasset" SILENT=true
+[2026.04.19-04.54.13:468][952]LogSavePackage: Moving output files for package: /Game/Blueprints/WBP_EndGame
+[2026.04.19-04.54.13:469][952]LogSavePackage: Moving '../../../../../../Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Saved/WBP_EndGame25D9EDFD44F1C9B5AC55E88E2820B4D9.tmp' to '../../../../../../Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Content/Blueprints/WBP_EndGame.uasset'
+[2026.04.19-04.54.13:480][952]LogFileHelpers: InternalPromptForCheckoutAndSave took 79.255 ms (total: 16.8 sec)
+[2026.04.19-04.54.13:546][952]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.19-04.54.13:546][952]LogContentValidation: Enabled validators:
+[2026.04.19-04.54.13:546][952]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.19-04.54.13:546][952]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.19-04.54.13:546][952]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.19-04.54.13:546][952]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.19-04.54.13:546][952]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.19-04.54.13:546][952]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.19-04.54.13:547][952]AssetCheck: /Game/Blueprints/WBP_EndGame Validating asset
+[2026.04.19-04.57.24:009][384]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 20070.474609
+[2026.04.19-04.57.24:113][392]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.19-04.57.24:113][393]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 20070.566406, Update Interval: 337.700745
+[2026.04.19-05.03.09:476][ 70]LogContentBrowser: Deferred new asset file creation: NewInputMappingContext
+[2026.04.19-05.03.09:489][ 70]LogContentBrowser: Creating deferred item: NewInputMappingContext
+[2026.04.19-05.03.09:512][ 71]LogContentBrowser: Renaming the item being created (Deferred Item: NewInputMappingContext).
+[2026.04.19-05.03.11:573][213]LogContentBrowser: Attempting asset rename: NewInputMappingContext -> IM_UI
+[2026.04.19-05.03.11:618][213]LogContentBrowser: End creating deferred item NewInputMappingContext
+[2026.04.19-05.03.33:702][652]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 20438.681641
+[2026.04.19-05.03.33:871][662]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.19-05.03.33:871][662]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 20438.841797, Update Interval: 325.518372
+[2026.04.19-05.03.39:996][218]LogUObjectHash: Compacting FUObjectHashTables data took   6.91ms
+[2026.04.19-05.03.40:010][218]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Fantastic_Dungeon_Pack/maps/FINALPROJECTUTORIAL' took 0.213
+[2026.04.19-05.03.40:016][218]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/WBP_EndGame] ([2] browsable assets)...
+[2026.04.19-05.03.40:025][218]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/WBP_EndGame.WBP_EndGame]
+[2026.04.19-05.03.40:025][218]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/WBP_EndGame]
+[2026.04.19-05.03.40:062][218]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/WBP_EndGame_Auto2
+[2026.04.19-05.03.40:062][218]LogSavePackage: Moving '../../../../../../Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Saved/WBP_EndGame_Auto2B9A097764B5DD5C73636EA81479ADDBB.tmp' to '../../../../../../Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Saved/Autosaves/Game/Blueprints/WBP_EndGame_Auto2.uasset'
+[2026.04.19-05.03.40:068][218]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Input/IM_UI] ([1] browsable assets)...
+[2026.04.19-05.03.40:068][218]OBJ SavePackage: Finished generating thumbnails for package [/Game/Input/IM_UI]
+[2026.04.19-05.03.40:076][218]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Input/IM_UI_Auto2
+[2026.04.19-05.03.40:076][218]LogSavePackage: Moving '../../../../../../Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Saved/IM_UI_Auto27D8B585744CE5EC7E758B1B862BF879C.tmp' to '../../../../../../Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Saved/Autosaves/Game/Input/IM_UI_Auto2.uasset'
+[2026.04.19-05.03.40:077][218]LogFileHelpers: Auto-saving content packages took 0.065
+[2026.04.19-05.03.49:758][158]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2026.04.19-05.04.26:826][426]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2026.04.19-05.04.43:369][241]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2026.04.19-05.04.43:383][241]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.19-05.04.43:445][241]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/WBP_EndGame] ([2] browsable assets)...
+[2026.04.19-05.04.43:449][241]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/WBP_EndGame.WBP_EndGame]
+[2026.04.19-05.04.43:449][241]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/WBP_EndGame]
+[2026.04.19-05.04.43:449][241]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/WBP_EndGame" FILE="../../../../../../Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Content/Blueprints/WBP_EndGame.uasset" SILENT=true
+[2026.04.19-05.04.43:470][241]LogSavePackage: Moving output files for package: /Game/Blueprints/WBP_EndGame
+[2026.04.19-05.04.43:471][241]LogSavePackage: Moving '../../../../../../Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Saved/WBP_EndGameC62EE17D44428C939FAB849199117725.tmp' to '../../../../../../Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Content/Blueprints/WBP_EndGame.uasset'
+[2026.04.19-05.04.43:475][241]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Input/IM_UI] ([1] browsable assets)...
+[2026.04.19-05.04.43:475][241]OBJ SavePackage: Finished generating thumbnails for package [/Game/Input/IM_UI]
+[2026.04.19-05.04.43:475][241]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Input/IM_UI" FILE="../../../../../../Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Content/Input/IM_UI.uasset" SILENT=true
+[2026.04.19-05.04.43:483][241]LogSavePackage: Moving output files for package: /Game/Input/IM_UI
+[2026.04.19-05.04.43:483][241]LogSavePackage: Moving '../../../../../../Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Saved/IM_UI84EFC5AA45E66A7C97E32B808B1DBEAC.tmp' to '../../../../../../Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Content/Input/IM_UI.uasset'
+[2026.04.19-05.04.43:499][241]LogFileHelpers: InternalPromptForCheckoutAndSave took 116.531 ms (total: 16.9 sec)
+[2026.04.19-05.04.43:565][241]LogContentValidation: Display: Starting to validate 2 assets
+[2026.04.19-05.04.43:565][241]LogContentValidation: Enabled validators:
+[2026.04.19-05.04.43:565][241]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.19-05.04.43:565][241]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.19-05.04.43:565][241]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.19-05.04.43:565][241]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.19-05.04.43:565][241]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.19-05.04.43:565][241]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.19-05.04.43:566][241]AssetCheck: /Game/Blueprints/WBP_EndGame Validating asset
+[2026.04.19-05.04.43:566][241]AssetCheck: /Game/Input/IM_UI Validating asset
+[2026.04.19-05.04.43:588][241]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Saved/SourceControl/UncontrolledChangelists.json
+[2026.04.19-05.04.44:958][343]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.04.19-05.04.44:979][343]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.04.19-05.04.44:983][343]LogPlayLevel: Creating play world package: /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTUTORIAL
+[2026.04.19-05.04.45:015][343]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032074s)
+[2026.04.19-05.04.45:015][343]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Fantastic_Dungeon_Pack/maps/FINALPROJECTUTORIAL.FINALPROJECTUTORIAL to /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTUTORIAL.FINALPROJECTUTORIAL (0.032182s)
+[2026.04.19-05.04.45:046][343]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2026.04.19-05.04.45:053][343]LogChaosDD: Creating Chaos Debug Draw Scene for world FINALPROJECTUTORIAL
+[2026.04.19-05.04.45:086][343]LogPlayLevel: PIE: World Init took: (0.034021s)
+[2026.04.19-05.04.45:088][343]LogAudio: Display: Creating Audio Device:                 Id: 71, Scope: Unique, Realtime: True
+[2026.04.19-05.04.45:089][343]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.04.19-05.04.45:089][343]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.04.19-05.04.45:089][343]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.04.19-05.04.45:089][343]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.04.19-05.04.45:089][343]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.04.19-05.04.45:089][343]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.04.19-05.04.45:089][343]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.04.19-05.04.45:089][343]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.04.19-05.04.45:089][343]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.04.19-05.04.45:089][343]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.04.19-05.04.45:089][343]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.04.19-05.04.45:097][343]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.04.19-05.04.45:130][343]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Logitech PRO X Gaming Headset)
+[2026.04.19-05.04.45:133][343]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.04.19-05.04.45:134][343]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.04.19-05.04.45:135][343]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.04.19-05.04.45:138][343]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=71
+[2026.04.19-05.04.45:138][343]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=71
+[2026.04.19-05.04.45:142][343]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=71
+[2026.04.19-05.04.45:142][343]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=71
+[2026.04.19-05.04.45:143][343]LogInit: FAudioDevice initialized with ID 71.
+[2026.04.19-05.04.45:143][343]LogAudio: Display: Audio Device (ID: 71) registered with world 'FINALPROJECTUTORIAL'.
+[2026.04.19-05.04.45:143][343]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 71
+[2026.04.19-05.04.45:155][343]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.04.19-05.04.45:272][343]LogWorld: Bringing World /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTUTORIAL.FINALPROJECTUTORIAL up for play (max tick rate 0) at 2026.04.18-23.04.45
+[2026.04.19-05.04.45:273][343]LogWorld: Bringing up level for play took: 0.116847
+[2026.04.19-05.04.45:286][343]LogOnline: OSS: Created online subsystem instance for: :Context_106
+[2026.04.19-05.04.45:358][343]PIE: Server logged in
+[2026.04.19-05.04.45:363][343]PIE: Play in editor total start time 0.392 seconds.
+[2026.04.19-05.04.45:446][344]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.04.19-05.04.48:904][535]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.19-05.04.48:904][535]LogWorld: BeginTearingDown for /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTUTORIAL
+[2026.04.19-05.04.48:908][535]LogWorld: UWorld::CleanupWorld for FINALPROJECTUTORIAL, bSessionEnded=true, bCleanupResources=true
+[2026.04.19-05.04.48:923][535]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.19-05.04.48:932][535]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.04.19-05.04.48:943][535]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.19-05.04.48:978][535]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.19-05.04.48:980][535]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 71
+[2026.04.19-05.04.48:981][535]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=71, StreamState=4
+[2026.04.19-05.04.48:985][535]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=71, StreamState=2
+[2026.04.19-05.04.49:024][535]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2026.04.19-05.04.49:440][536]LogPlayLevel: Display: Destroying online subsystem :Context_106
+[2026.04.19-05.04.56:350][ 77]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2026.04.19-05.05.10:668][293]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.04.19-05.05.10:679][293]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.04.19-05.05.10:685][293]LogPlayLevel: Creating play world package: /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTUTORIAL
+[2026.04.19-05.05.10:705][293]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019715s)
+[2026.04.19-05.05.10:705][293]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Fantastic_Dungeon_Pack/maps/FINALPROJECTUTORIAL.FINALPROJECTUTORIAL to /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTUTORIAL.FINALPROJECTUTORIAL (0.019770s)
+[2026.04.19-05.05.10:735][293]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2026.04.19-05.05.10:739][293]LogChaosDD: Creating Chaos Debug Draw Scene for world FINALPROJECTUTORIAL
+[2026.04.19-05.05.10:741][293]LogPlayLevel: PIE: World Init took: (0.002235s)
+[2026.04.19-05.05.10:742][293]LogAudio: Display: Creating Audio Device:                 Id: 72, Scope: Unique, Realtime: True
+[2026.04.19-05.05.10:742][293]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.04.19-05.05.10:742][293]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.04.19-05.05.10:742][293]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.04.19-05.05.10:742][293]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.04.19-05.05.10:742][293]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.04.19-05.05.10:742][293]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.04.19-05.05.10:742][293]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.04.19-05.05.10:742][293]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.04.19-05.05.10:742][293]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.04.19-05.05.10:742][293]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.04.19-05.05.10:742][293]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.04.19-05.05.10:744][293]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.04.19-05.05.10:772][293]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Logitech PRO X Gaming Headset)
+[2026.04.19-05.05.10:772][293]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.04.19-05.05.10:772][293]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.04.19-05.05.10:772][293]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.04.19-05.05.10:773][293]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=72
+[2026.04.19-05.05.10:773][293]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=72
+[2026.04.19-05.05.10:776][293]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=72
+[2026.04.19-05.05.10:776][293]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=72
+[2026.04.19-05.05.10:776][293]LogInit: FAudioDevice initialized with ID 72.
+[2026.04.19-05.05.10:776][293]LogAudio: Display: Audio Device (ID: 72) registered with world 'FINALPROJECTUTORIAL'.
+[2026.04.19-05.05.10:776][293]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 72
+[2026.04.19-05.05.10:781][293]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.04.19-05.05.10:882][293]LogWorld: Bringing World /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTUTORIAL.FINALPROJECTUTORIAL up for play (max tick rate 0) at 2026.04.18-23.05.10
+[2026.04.19-05.05.10:883][293]LogWorld: Bringing up level for play took: 0.100126
+[2026.04.19-05.05.10:886][293]LogOnline: OSS: Created online subsystem instance for: :Context_107
+[2026.04.19-05.05.10:896][293]PIE: Server logged in
+[2026.04.19-05.05.10:900][293]PIE: Play in editor total start time 0.221 seconds.
+[2026.04.19-05.05.10:969][294]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.04.19-05.06.12:359][771]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Fantastic_Dungeon_Pack/maps/FINALPROJECTLEVEL"
+[2026.04.19-05.06.12:359][771]LogNet: Browse: /Game/Fantastic_Dungeon_Pack/maps/FINALPROJECTLEVEL
+[2026.04.19-05.06.12:360][771]LogLoad: LoadMap: /Game/Fantastic_Dungeon_Pack/maps/FINALPROJECTLEVEL
+[2026.04.19-05.06.12:360][771]LogWorld: BeginTearingDown for /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTUTORIAL
+[2026.04.19-05.06.12:361][771]LogWorld: UWorld::CleanupWorld for FINALPROJECTUTORIAL, bSessionEnded=true, bCleanupResources=true
+[2026.04.19-05.06.12:374][771]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.19-05.06.12:408][771]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.04.19-05.06.12:419][771]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2026.04.19-05.06.12:426][771]LogStreaming: Display: FlushAsyncLoading(716): 1 QueuedPackages, 0 AsyncPackages
+[2026.04.19-05.06.12:602][771]LogAudio: Display: Audio Device (ID: 72) registered with world 'FINALPROJECTLEVEL'.
+[2026.04.19-05.06.12:603][771]LogChaosDD: Creating Chaos Debug Draw Scene for world FINALPROJECTLEVEL
+[2026.04.19-05.06.12:605][771]LogPlayLevel: PIE: World Init took: (0.002781s)
+[2026.04.19-05.06.12:605][771]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.04.19-05.06.12:833][771]LogActor: Loaded Actor (BP_PROP_lock_dungeon_GEN_VARIABLE_BP_PROP_lock_dungeon_C_CAT) with IsValid() == false
+[2026.04.19-05.06.12:834][771]LogActor: Loaded Actor (BP_PROP_lock_dungeon_GEN_VARIABLE_BP_PROP_lock_dungeon_C_CAT) with IsValid() == false
+[2026.04.19-05.06.12:948][771]LogWorld: Bringing World /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTLEVEL.FINALPROJECTLEVEL up for play (max tick rate 0) at 2026.04.18-23.06.12
+[2026.04.19-05.06.12:951][771]LogWorld: Bringing up level for play took: 0.345383
+[2026.04.19-05.06.12:964][771]LogLoad: Took 0.604953 seconds to LoadMap(/Game/Fantastic_Dungeon_Pack/maps/FINALPROJECTLEVEL)
+[2026.04.19-05.06.12:964][771]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Fantastic_Dungeon_Pack/maps/FINALPROJECTLEVEL
+[2026.04.19-05.06.13:152][772]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.04.19-05.09.55:176][552]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 20820.066406
+[2026.04.19-05.09.55:305][560]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.19-05.09.55:305][560]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 20820.179688, Update Interval: 323.238617
+[2026.04.19-05.10.03:185][ 73]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.04.19-05.10.03:185][ 73]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.04.19-05.10.07:503][365]Cmd: quit
+[2026.04.19-05.10.07:535][365]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.19-05.10.07:535][365]LogWorld: BeginTearingDown for /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTLEVEL
+[2026.04.19-05.10.07:537][365]LogWorld: UWorld::CleanupWorld for FINALPROJECTLEVEL, bSessionEnded=true, bCleanupResources=true
+[2026.04.19-05.10.07:551][365]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.19-05.10.07:567][365]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.04.19-05.10.07:580][365]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.19-05.10.07:623][365]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.19-05.10.07:623][365]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 72
+[2026.04.19-05.10.07:623][365]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=72, StreamState=4
+[2026.04.19-05.10.07:626][365]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=72, StreamState=2
+[2026.04.19-05.10.07:664][365]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2026.04.19-05.10.07:759][366]LogPlayLevel: Display: Destroying online subsystem :Context_107
+[2026.04.19-05.10.27:855][908]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2026.04.19-05.10.27:862][908]LogStreaming: Display: FlushAsyncLoading(717): 1 QueuedPackages, 0 AsyncPackages
+[2026.04.19-05.10.28:058][908]LogChaosDD: Creating Chaos Debug Draw Scene for world FINALPROJECTLEVEL
+[2026.04.19-05.10.28:210][908]LogActor: Loaded Actor (BP_PROP_lock_dungeon_GEN_VARIABLE_BP_PROP_lock_dungeon_C_CAT) with IsValid() == false
+[2026.04.19-05.10.28:211][908]LogActor: Loaded Actor (BP_PROP_lock_dungeon_GEN_VARIABLE_BP_PROP_lock_dungeon_C_CAT) with IsValid() == false
+[2026.04.19-05.10.28:292][908]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Fantastic_Dungeon_Pack/maps/FINALPROJECTLEVEL.FINALPROJECTLEVEL
+[2026.04.19-05.10.28:297][908]Cmd: MAP LOAD FILE="../../../../../../Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Content/Fantastic_Dungeon_Pack/maps/FINALPROJECTLEVEL.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2026.04.19-05.10.28:372][908]LogWorld: UWorld::CleanupWorld for FINALPROJECTUTORIAL, bSessionEnded=true, bCleanupResources=true
+[2026.04.19-05.10.28:376][908]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.19-05.10.28:437][908]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.04.19-05.10.28:463][908]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2026.04.19-05.10.28:473][908]LogWorld: UWorld::CleanupWorld for FINALPROJECTLEVEL, bSessionEnded=true, bCleanupResources=true
+[2026.04.19-05.10.28:478][908]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.19-05.10.28:539][908]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2026.04.19-05.10.28:582][908]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2026.04.19-05.10.28:750][908]LogAudio: Display: Audio Device (ID: 1) registered with world 'FINALPROJECTLEVEL'.
+[2026.04.19-05.10.28:751][908]LogChaosDD: Creating Chaos Debug Draw Scene for world FINALPROJECTLEVEL
+[2026.04.19-05.10.29:011][908]LogActor: Loaded Actor (BP_PROP_lock_dungeon_GEN_VARIABLE_BP_PROP_lock_dungeon_C_CAT) with IsValid() == false
+[2026.04.19-05.10.29:015][908]LogActor: Loaded Actor (BP_PROP_lock_dungeon_GEN_VARIABLE_BP_PROP_lock_dungeon_C_CAT) with IsValid() == false
+[2026.04.19-05.10.32:150][908]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2026.04.19-05.10.32:225][908]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2026.04.19-05.10.32:239][908]Cmd: MAP CHECKDEP NOCLEARLOG
+[2026.04.19-05.10.32:240][908]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.364ms to complete.
+[2026.04.19-05.10.32:725][910]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.04.19-05.10.58:075][165]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Fantastic_Dungeon_Pack/blueprints/FX/BP_FX_godray_dungeon_02.BP_FX_godray_dungeon_02
+[2026.04.19-05.10.58:079][165]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_118
+[2026.04.19-05.11.09:250][960]LogWorld: UWorld::CleanupWorld for World_118, bSessionEnded=true, bCleanupResources=true
+[2026.04.19-05.11.09:250][960]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.19-05.11.09:366][960]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2026.04.19-05.12.45:392][757]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'UKismetStringLibrary::EqualEqual_StrStr' [Element not found.]
+[2026.04.19-05.12.55:962][609]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2026.04.19-05.13.03:971][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2026.04.19-05.13.05:305][ 75]LogSlate: Window 'Save Content' being destroyed
+[2026.04.19-05.13.05:317][ 75]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.19-05.13.05:378][ 75]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/WBP_PlayerHUD] ([2] browsable assets)...
+[2026.04.19-05.13.05:381][ 75]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/WBP_PlayerHUD.WBP_PlayerHUD]
+[2026.04.19-05.13.05:382][ 75]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/WBP_PlayerHUD]
+[2026.04.19-05.13.05:382][ 75]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/WBP_PlayerHUD" FILE="../../../../../../Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Content/Blueprints/WBP_PlayerHUD.uasset" SILENT=true
+[2026.04.19-05.13.05:409][ 75]LogSavePackage: Moving output files for package: /Game/Blueprints/WBP_PlayerHUD
+[2026.04.19-05.13.05:410][ 75]LogSavePackage: Moving '../../../../../../Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Saved/WBP_PlayerHUD23A586884F847CA2F0804D8629E8C188.tmp' to '../../../../../../Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Content/Blueprints/WBP_PlayerHUD.uasset'
+[2026.04.19-05.13.05:477][ 75]LogFileHelpers: InternalPromptForCheckoutAndSave took 160.680 ms (total: 17.1 sec)
+[2026.04.19-05.13.05:477][ 75]LogStreaming: Display: FlushAsyncLoading(719): 1 QueuedPackages, 0 AsyncPackages
+[2026.04.19-05.13.05:510][ 75]LogChaosDD: Creating Chaos Debug Draw Scene for world FINALPROJECTUTORIAL
+[2026.04.19-05.13.05:643][ 75]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_04_C_7_GEN_VARIABLE_BP_PROP_skeleton_dungeon_04_C_CAT) with IsValid() == false
+[2026.04.19-05.13.05:647][ 75]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_03_C_4_GEN_VARIABLE_BP_PROP_skeleton_dungeon_03_C_CAT) with IsValid() == false
+[2026.04.19-05.13.05:650][ 75]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_02_C_5_GEN_VARIABLE_BP_PROP_skeleton_dungeon_02_C_CAT) with IsValid() == false
+[2026.04.19-05.13.05:654][ 75]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_01_C_4_GEN_VARIABLE_BP_PROP_skeleton_dungeon_01_C_CAT) with IsValid() == false
+[2026.04.19-05.13.05:657][ 75]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_02_C_6_GEN_VARIABLE_BP_PROP_skeleton_dungeon_02_C_CAT) with IsValid() == false
+[2026.04.19-05.13.05:660][ 75]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_04_C_8_GEN_VARIABLE_BP_PROP_skeleton_dungeon_04_C_CAT) with IsValid() == false
+[2026.04.19-05.13.05:663][ 75]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_04_C_9_GEN_VARIABLE_BP_PROP_skeleton_dungeon_04_C_CAT) with IsValid() == false
+[2026.04.19-05.13.05:667][ 75]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_01_C_5_GEN_VARIABLE_BP_PROP_skeleton_dungeon_01_C_CAT) with IsValid() == false
+[2026.04.19-05.13.05:670][ 75]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_03_C_5_GEN_VARIABLE_BP_PROP_skeleton_dungeon_03_C_CAT) with IsValid() == false
+[2026.04.19-05.13.05:673][ 75]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_01_C_6_GEN_VARIABLE_BP_PROP_skeleton_dungeon_01_C_CAT) with IsValid() == false
+[2026.04.19-05.13.05:676][ 75]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_02_C_7_GEN_VARIABLE_BP_PROP_skeleton_dungeon_02_C_CAT) with IsValid() == false
+[2026.04.19-05.13.05:680][ 75]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_03_C_6_GEN_VARIABLE_BP_PROP_skeleton_dungeon_03_C_CAT) with IsValid() == false
+[2026.04.19-05.13.05:694][ 75]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_04_C_7_GEN_VARIABLE_BP_PROP_skeleton_dungeon_04_C_CAT) with IsValid() == false
+[2026.04.19-05.13.05:698][ 75]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_03_C_4_GEN_VARIABLE_BP_PROP_skeleton_dungeon_03_C_CAT) with IsValid() == false
+[2026.04.19-05.13.05:702][ 75]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_02_C_5_GEN_VARIABLE_BP_PROP_skeleton_dungeon_02_C_CAT) with IsValid() == false
+[2026.04.19-05.13.05:706][ 75]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_01_C_4_GEN_VARIABLE_BP_PROP_skeleton_dungeon_01_C_CAT) with IsValid() == false
+[2026.04.19-05.13.05:708][ 75]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_02_C_6_GEN_VARIABLE_BP_PROP_skeleton_dungeon_02_C_CAT) with IsValid() == false
+[2026.04.19-05.13.05:711][ 75]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_04_C_8_GEN_VARIABLE_BP_PROP_skeleton_dungeon_04_C_CAT) with IsValid() == false
+[2026.04.19-05.13.05:715][ 75]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_04_C_9_GEN_VARIABLE_BP_PROP_skeleton_dungeon_04_C_CAT) with IsValid() == false
+[2026.04.19-05.13.05:718][ 75]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_01_C_5_GEN_VARIABLE_BP_PROP_skeleton_dungeon_01_C_CAT) with IsValid() == false
+[2026.04.19-05.13.05:722][ 75]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_03_C_5_GEN_VARIABLE_BP_PROP_skeleton_dungeon_03_C_CAT) with IsValid() == false
+[2026.04.19-05.13.05:725][ 75]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_01_C_6_GEN_VARIABLE_BP_PROP_skeleton_dungeon_01_C_CAT) with IsValid() == false
+[2026.04.19-05.13.05:728][ 75]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_02_C_7_GEN_VARIABLE_BP_PROP_skeleton_dungeon_02_C_CAT) with IsValid() == false
+[2026.04.19-05.13.05:732][ 75]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_03_C_6_GEN_VARIABLE_BP_PROP_skeleton_dungeon_03_C_CAT) with IsValid() == false
+[2026.04.19-05.13.05:743][ 75]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Fantastic_Dungeon_Pack/maps/FINALPROJECTUTORIAL.FINALPROJECTUTORIAL
+[2026.04.19-05.13.05:744][ 75]Cmd: MAP LOAD FILE="../../../../../../Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Content/Fantastic_Dungeon_Pack/maps/FINALPROJECTUTORIAL.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2026.04.19-05.13.05:808][ 75]LogWorld: UWorld::CleanupWorld for FINALPROJECTLEVEL, bSessionEnded=true, bCleanupResources=true
+[2026.04.19-05.13.05:809][ 75]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.19-05.13.05:862][ 75]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.04.19-05.13.05:884][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2026.04.19-05.13.05:895][ 75]LogWorld: UWorld::CleanupWorld for FINALPROJECTUTORIAL, bSessionEnded=true, bCleanupResources=true
+[2026.04.19-05.13.05:904][ 75]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.19-05.13.05:940][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2026.04.19-05.13.05:979][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2026.04.19-05.13.06:016][ 75]LogAudio: Display: Audio Device (ID: 1) registered with world 'FINALPROJECTUTORIAL'.
+[2026.04.19-05.13.06:016][ 75]LogChaosDD: Creating Chaos Debug Draw Scene for world FINALPROJECTUTORIAL
+[2026.04.19-05.13.06:228][ 75]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_04_C_7_GEN_VARIABLE_BP_PROP_skeleton_dungeon_04_C_CAT) with IsValid() == false
+[2026.04.19-05.13.06:233][ 75]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_03_C_4_GEN_VARIABLE_BP_PROP_skeleton_dungeon_03_C_CAT) with IsValid() == false
+[2026.04.19-05.13.06:238][ 75]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_02_C_5_GEN_VARIABLE_BP_PROP_skeleton_dungeon_02_C_CAT) with IsValid() == false
+[2026.04.19-05.13.06:243][ 75]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_01_C_4_GEN_VARIABLE_BP_PROP_skeleton_dungeon_01_C_CAT) with IsValid() == false
+[2026.04.19-05.13.06:247][ 75]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_02_C_6_GEN_VARIABLE_BP_PROP_skeleton_dungeon_02_C_CAT) with IsValid() == false
+[2026.04.19-05.13.06:251][ 75]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_04_C_8_GEN_VARIABLE_BP_PROP_skeleton_dungeon_04_C_CAT) with IsValid() == false
+[2026.04.19-05.13.06:256][ 75]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_04_C_9_GEN_VARIABLE_BP_PROP_skeleton_dungeon_04_C_CAT) with IsValid() == false
+[2026.04.19-05.13.06:260][ 75]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_01_C_5_GEN_VARIABLE_BP_PROP_skeleton_dungeon_01_C_CAT) with IsValid() == false
+[2026.04.19-05.13.06:266][ 75]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_03_C_5_GEN_VARIABLE_BP_PROP_skeleton_dungeon_03_C_CAT) with IsValid() == false
+[2026.04.19-05.13.06:271][ 75]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_01_C_6_GEN_VARIABLE_BP_PROP_skeleton_dungeon_01_C_CAT) with IsValid() == false
+[2026.04.19-05.13.06:275][ 75]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_02_C_7_GEN_VARIABLE_BP_PROP_skeleton_dungeon_02_C_CAT) with IsValid() == false
+[2026.04.19-05.13.06:279][ 75]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_03_C_6_GEN_VARIABLE_BP_PROP_skeleton_dungeon_03_C_CAT) with IsValid() == false
+[2026.04.19-05.13.06:307][ 75]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_04_C_7_GEN_VARIABLE_BP_PROP_skeleton_dungeon_04_C_CAT) with IsValid() == false
+[2026.04.19-05.13.06:312][ 75]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_03_C_4_GEN_VARIABLE_BP_PROP_skeleton_dungeon_03_C_CAT) with IsValid() == false
+[2026.04.19-05.13.06:317][ 75]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_02_C_5_GEN_VARIABLE_BP_PROP_skeleton_dungeon_02_C_CAT) with IsValid() == false
+[2026.04.19-05.13.06:322][ 75]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_01_C_4_GEN_VARIABLE_BP_PROP_skeleton_dungeon_01_C_CAT) with IsValid() == false
+[2026.04.19-05.13.06:326][ 75]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_02_C_6_GEN_VARIABLE_BP_PROP_skeleton_dungeon_02_C_CAT) with IsValid() == false
+[2026.04.19-05.13.06:331][ 75]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_04_C_8_GEN_VARIABLE_BP_PROP_skeleton_dungeon_04_C_CAT) with IsValid() == false
+[2026.04.19-05.13.06:336][ 75]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_04_C_9_GEN_VARIABLE_BP_PROP_skeleton_dungeon_04_C_CAT) with IsValid() == false
+[2026.04.19-05.13.06:340][ 75]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_01_C_5_GEN_VARIABLE_BP_PROP_skeleton_dungeon_01_C_CAT) with IsValid() == false
+[2026.04.19-05.13.06:344][ 75]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_03_C_5_GEN_VARIABLE_BP_PROP_skeleton_dungeon_03_C_CAT) with IsValid() == false
+[2026.04.19-05.13.06:350][ 75]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_01_C_6_GEN_VARIABLE_BP_PROP_skeleton_dungeon_01_C_CAT) with IsValid() == false
+[2026.04.19-05.13.06:354][ 75]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_02_C_7_GEN_VARIABLE_BP_PROP_skeleton_dungeon_02_C_CAT) with IsValid() == false
+[2026.04.19-05.13.06:358][ 75]LogActor: Loaded Actor (BP_PROP_skeleton_dungeon_03_C_6_GEN_VARIABLE_BP_PROP_skeleton_dungeon_03_C_CAT) with IsValid() == false
+[2026.04.19-05.13.06:452][ 75]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2026.04.19-05.13.06:497][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2026.04.19-05.13.06:509][ 75]Cmd: MAP CHECKDEP NOCLEARLOG
+[2026.04.19-05.13.06:509][ 75]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.091ms to complete.
+[2026.04.19-05.13.06:594][ 75]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.19-05.13.06:594][ 75]LogContentValidation: Enabled validators:
+[2026.04.19-05.13.06:595][ 75]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.19-05.13.06:595][ 75]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.19-05.13.06:595][ 75]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.19-05.13.06:595][ 75]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.19-05.13.06:595][ 75]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.19-05.13.06:595][ 75]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.19-05.13.06:597][ 75]AssetCheck: /Game/Blueprints/WBP_PlayerHUD Validating asset
+[2026.04.19-05.13.06:919][ 77]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.04.19-05.13.08:307][158]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.04.19-05.13.08:319][158]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.04.19-05.13.08:320][158]LogPlayLevel: Creating play world package: /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTUTORIAL
+[2026.04.19-05.13.08:341][158]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020087s)
+[2026.04.19-05.13.08:341][158]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Fantastic_Dungeon_Pack/maps/FINALPROJECTUTORIAL.FINALPROJECTUTORIAL to /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTUTORIAL.FINALPROJECTUTORIAL (0.020138s)
+[2026.04.19-05.13.08:370][158]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2026.04.19-05.13.08:384][158]LogChaosDD: Creating Chaos Debug Draw Scene for world FINALPROJECTUTORIAL
+[2026.04.19-05.13.08:386][158]LogPlayLevel: PIE: World Init took: (0.002132s)
+[2026.04.19-05.13.08:387][158]LogAudio: Display: Creating Audio Device:                 Id: 73, Scope: Unique, Realtime: True
+[2026.04.19-05.13.08:387][158]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.04.19-05.13.08:387][158]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.04.19-05.13.08:387][158]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.04.19-05.13.08:387][158]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.04.19-05.13.08:387][158]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.04.19-05.13.08:387][158]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.04.19-05.13.08:387][158]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.04.19-05.13.08:387][158]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.04.19-05.13.08:387][158]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.04.19-05.13.08:387][158]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.04.19-05.13.08:387][158]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.04.19-05.13.08:390][158]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.04.19-05.13.08:417][158]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Logitech PRO X Gaming Headset)
+[2026.04.19-05.13.08:418][158]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.04.19-05.13.08:418][158]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.04.19-05.13.08:418][158]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.04.19-05.13.08:418][158]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=73
+[2026.04.19-05.13.08:418][158]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=73
+[2026.04.19-05.13.08:421][158]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=73
+[2026.04.19-05.13.08:421][158]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=73
+[2026.04.19-05.13.08:421][158]LogInit: FAudioDevice initialized with ID 73.
+[2026.04.19-05.13.08:421][158]LogAudio: Display: Audio Device (ID: 73) registered with world 'FINALPROJECTUTORIAL'.
+[2026.04.19-05.13.08:421][158]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 73
+[2026.04.19-05.13.08:426][158]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.04.19-05.13.08:526][158]LogWorld: Bringing World /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTUTORIAL.FINALPROJECTUTORIAL up for play (max tick rate 0) at 2026.04.18-23.13.08
+[2026.04.19-05.13.08:527][158]LogWorld: Bringing up level for play took: 0.100300
+[2026.04.19-05.13.08:530][158]LogOnline: OSS: Created online subsystem instance for: :Context_109
+[2026.04.19-05.13.08:541][158]PIE: Server logged in
+[2026.04.19-05.13.08:545][158]PIE: Play in editor total start time 0.226 seconds.
+[2026.04.19-05.13.08:606][159]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.04.19-05.13.20:081][956]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Fantastic_Dungeon_Pack/maps/FINALPROJECTLEVEL"
+[2026.04.19-05.13.20:081][956]LogNet: Browse: /Game/Fantastic_Dungeon_Pack/maps/FINALPROJECTLEVEL
+[2026.04.19-05.13.20:081][956]LogLoad: LoadMap: /Game/Fantastic_Dungeon_Pack/maps/FINALPROJECTLEVEL
+[2026.04.19-05.13.20:082][956]LogWorld: BeginTearingDown for /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTUTORIAL
+[2026.04.19-05.13.20:083][956]LogWorld: UWorld::CleanupWorld for FINALPROJECTUTORIAL, bSessionEnded=true, bCleanupResources=true
+[2026.04.19-05.13.20:096][956]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.19-05.13.20:127][956]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.04.19-05.13.20:136][956]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2026.04.19-05.13.20:143][956]LogStreaming: Display: FlushAsyncLoading(721): 1 QueuedPackages, 0 AsyncPackages
+[2026.04.19-05.13.20:320][956]LogAudio: Display: Audio Device (ID: 73) registered with world 'FINALPROJECTLEVEL'.
+[2026.04.19-05.13.20:320][956]LogChaosDD: Creating Chaos Debug Draw Scene for world FINALPROJECTLEVEL
+[2026.04.19-05.13.20:323][956]LogPlayLevel: PIE: World Init took: (0.002467s)
+[2026.04.19-05.13.20:323][956]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.04.19-05.13.20:543][956]LogActor: Loaded Actor (BP_PROP_lock_dungeon_GEN_VARIABLE_BP_PROP_lock_dungeon_C_CAT) with IsValid() == false
+[2026.04.19-05.13.20:545][956]LogActor: Loaded Actor (BP_PROP_lock_dungeon_GEN_VARIABLE_BP_PROP_lock_dungeon_C_CAT) with IsValid() == false
+[2026.04.19-05.13.20:654][956]LogWorld: Bringing World /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTLEVEL.FINALPROJECTLEVEL up for play (max tick rate 0) at 2026.04.18-23.13.20
+[2026.04.19-05.13.20:655][956]LogWorld: Bringing up level for play took: 0.329283
+[2026.04.19-05.13.20:669][956]LogLoad: Took 0.587472 seconds to LoadMap(/Game/Fantastic_Dungeon_Pack/maps/FINALPROJECTLEVEL)
+[2026.04.19-05.13.20:669][956]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Fantastic_Dungeon_Pack/maps/FINALPROJECTLEVEL
+[2026.04.19-05.13.20:823][957]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.04.19-05.13.22:829][ 69]LogZenServiceInstance: Warning: Unable to reach Unreal Zen Storage Server HTTP service at [::1]:8558. Status: 0. Response: 
+[2026.04.19-05.13.22:830][ 69]LogZenServiceInstance: Display: Local ZenServer recovery being attempted...
+[2026.04.19-05.13.22:830][ 69]LogZenServiceInstance: Display: Successfully shut down zenserver process with pid 22472
+[2026.04.19-05.13.22:830][ 69]LogZenServiceInstance: No current process using the data dir found, launching a new instance
+[2026.04.19-05.13.22:830][ 69]LogZenServiceInstance: Display: Launching executable 'C:/Users/Norah/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe', working dir 'C:/Users/Norah/AppData/Local/UnrealEngine/Common/Zen/Install', data dir 'C:/Users/Norah/AppData/Local/UnrealEngine/Common/Zen/Data', args '--port 8558 --data-dir "C:\Users\Norah\AppData\Local\UnrealEngine\Common\Zen\Data" --http asio --gc-cache-duration-seconds 1209600 --gc-interval-seconds 21600 --gc-low-diskspace-threshold 2147483648 --quiet --http-forceloopback --owner-pid 20160  --child-id Zen_20160_Startup'
+[2026.04.19-05.13.23:004][ 79]LogZenServiceInstance: Display: Unreal Zen Storage Server HTTP service at [::1]:8558 status: OK!.
+[2026.04.19-05.13.23:004][ 79]LogZenServiceInstance: Display: Local ZenServer recovery finished.
+[2026.04.19-05.13.23:004][ 79]LogZenServiceInstance: Display: Local ZenServer post recovery status: Healthy
+[2026.04.19-05.13.24:770][187]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.19-05.13.24:770][187]LogWorld: BeginTearingDown for /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTLEVEL
+[2026.04.19-05.13.24:771][187]LogWorld: UWorld::CleanupWorld for FINALPROJECTLEVEL, bSessionEnded=true, bCleanupResources=true
+[2026.04.19-05.13.24:786][187]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.19-05.13.24:792][187]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.04.19-05.13.24:805][187]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.19-05.13.24:850][187]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.19-05.13.24:850][187]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 73
+[2026.04.19-05.13.24:851][187]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=73, StreamState=4
+[2026.04.19-05.13.24:853][187]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=73, StreamState=2
+[2026.04.19-05.13.24:880][187]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2026.04.19-05.13.24:938][188]LogPlayLevel: Display: Destroying online subsystem :Context_109
+[2026.04.19-05.13.29:516][547]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.04.19-05.13.29:528][547]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.04.19-05.13.29:579][547]LogPlayLevel: Creating play world package: /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTUTORIAL
+[2026.04.19-05.13.29:596][547]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018749s)
+[2026.04.19-05.13.29:596][547]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Fantastic_Dungeon_Pack/maps/FINALPROJECTUTORIAL.FINALPROJECTUTORIAL to /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTUTORIAL.FINALPROJECTUTORIAL (0.018801s)
+[2026.04.19-05.13.29:628][547]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2026.04.19-05.13.29:633][547]LogChaosDD: Creating Chaos Debug Draw Scene for world FINALPROJECTUTORIAL
+[2026.04.19-05.13.29:635][547]LogPlayLevel: PIE: World Init took: (0.002172s)
+[2026.04.19-05.13.29:636][547]LogAudio: Display: Creating Audio Device:                 Id: 74, Scope: Unique, Realtime: True
+[2026.04.19-05.13.29:636][547]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.04.19-05.13.29:636][547]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.04.19-05.13.29:636][547]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.04.19-05.13.29:636][547]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.04.19-05.13.29:636][547]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.04.19-05.13.29:636][547]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.04.19-05.13.29:636][547]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.04.19-05.13.29:636][547]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.04.19-05.13.29:636][547]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.04.19-05.13.29:636][547]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.04.19-05.13.29:636][547]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.04.19-05.13.29:640][547]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.04.19-05.13.29:666][547]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Logitech PRO X Gaming Headset)
+[2026.04.19-05.13.29:666][547]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.04.19-05.13.29:666][547]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.04.19-05.13.29:666][547]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.04.19-05.13.29:666][547]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=74
+[2026.04.19-05.13.29:666][547]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=74
+[2026.04.19-05.13.29:670][547]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=74
+[2026.04.19-05.13.29:670][547]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=74
+[2026.04.19-05.13.29:670][547]LogInit: FAudioDevice initialized with ID 74.
+[2026.04.19-05.13.29:670][547]LogAudio: Display: Audio Device (ID: 74) registered with world 'FINALPROJECTUTORIAL'.
+[2026.04.19-05.13.29:670][547]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 74
+[2026.04.19-05.13.29:675][547]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.04.19-05.13.29:775][547]LogWorld: Bringing World /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTUTORIAL.FINALPROJECTUTORIAL up for play (max tick rate 0) at 2026.04.18-23.13.29
+[2026.04.19-05.13.29:776][547]LogWorld: Bringing up level for play took: 0.100122
+[2026.04.19-05.13.29:779][547]LogOnline: OSS: Created online subsystem instance for: :Context_110
+[2026.04.19-05.13.29:790][547]PIE: Server logged in
+[2026.04.19-05.13.29:794][547]PIE: Play in editor total start time 0.266 seconds.
+[2026.04.19-05.13.29:851][548]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.04.19-05.13.38:376][141]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Fantastic_Dungeon_Pack/maps/FINALPROJECTLEVEL"
+[2026.04.19-05.13.38:378][141]LogNet: Browse: /Game/Fantastic_Dungeon_Pack/maps/FINALPROJECTLEVEL
+[2026.04.19-05.13.38:378][141]LogLoad: LoadMap: /Game/Fantastic_Dungeon_Pack/maps/FINALPROJECTLEVEL
+[2026.04.19-05.13.38:378][141]LogWorld: BeginTearingDown for /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTUTORIAL
+[2026.04.19-05.13.38:379][141]LogWorld: UWorld::CleanupWorld for FINALPROJECTUTORIAL, bSessionEnded=true, bCleanupResources=true
+[2026.04.19-05.13.38:393][141]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.19-05.13.38:426][141]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.04.19-05.13.38:435][141]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2026.04.19-05.13.38:441][141]LogStreaming: Display: FlushAsyncLoading(722): 1 QueuedPackages, 0 AsyncPackages
+[2026.04.19-05.13.38:600][141]LogAudio: Display: Audio Device (ID: 74) registered with world 'FINALPROJECTLEVEL'.
+[2026.04.19-05.13.38:600][141]LogChaosDD: Creating Chaos Debug Draw Scene for world FINALPROJECTLEVEL
+[2026.04.19-05.13.38:602][141]LogPlayLevel: PIE: World Init took: (0.002493s)
+[2026.04.19-05.13.38:602][141]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.04.19-05.13.38:815][141]LogActor: Loaded Actor (BP_PROP_lock_dungeon_GEN_VARIABLE_BP_PROP_lock_dungeon_C_CAT) with IsValid() == false
+[2026.04.19-05.13.38:817][141]LogActor: Loaded Actor (BP_PROP_lock_dungeon_GEN_VARIABLE_BP_PROP_lock_dungeon_C_CAT) with IsValid() == false
+[2026.04.19-05.13.38:926][141]LogWorld: Bringing World /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTLEVEL.FINALPROJECTLEVEL up for play (max tick rate 0) at 2026.04.18-23.13.38
+[2026.04.19-05.13.38:928][141]LogWorld: Bringing up level for play took: 0.325051
+[2026.04.19-05.13.38:940][141]LogLoad: Took 0.562857 seconds to LoadMap(/Game/Fantastic_Dungeon_Pack/maps/FINALPROJECTLEVEL)
+[2026.04.19-05.13.38:940][141]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Fantastic_Dungeon_Pack/maps/FINALPROJECTLEVEL
+[2026.04.19-05.13.39:070][142]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.04.19-05.13.45:459][567]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.19-05.13.45:459][567]LogWorld: BeginTearingDown for /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTLEVEL
+[2026.04.19-05.13.45:461][567]LogWorld: UWorld::CleanupWorld for FINALPROJECTLEVEL, bSessionEnded=true, bCleanupResources=true
+[2026.04.19-05.13.45:477][567]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.19-05.13.45:482][567]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.04.19-05.13.45:496][567]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.19-05.13.45:540][567]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.19-05.13.45:541][567]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 74
+[2026.04.19-05.13.45:541][567]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=74, StreamState=4
+[2026.04.19-05.13.45:543][567]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=74, StreamState=2
+[2026.04.19-05.13.45:569][567]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2026.04.19-05.13.45:636][568]LogPlayLevel: Display: Destroying online subsystem :Context_110
+[2026.04.19-05.13.53:568][213]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2026.04.19-05.14.28:853][753]Cmd: TRANSACTION UNDO
+[2026.04.19-05.14.28:853][753]LogEditorTransaction: Undo Reset to Default
+[2026.04.19-05.14.30:615][844]Cmd: TRANSACTION UNDO
+[2026.04.19-05.14.30:615][844]LogEditorTransaction: Undo Reset to Default
+[2026.04.19-05.14.32:001][927]Cmd: TRANSACTION UNDO
+[2026.04.19-05.14.32:001][927]LogEditorTransaction: Undo Edit Bottom
+[2026.04.19-05.14.34:777][133]LogEditorTransaction: Undo Edit Right
+[2026.04.19-05.14.35:448][147]LogEditorTransaction: Undo Changed Anchors
+[2026.04.19-05.14.36:491][202]LogEditorTransaction: Undo Add Widget
+[2026.04.19-05.15.05:569][355]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2026.04.19-05.15.09:187][580]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.04.19-05.15.09:196][580]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.04.19-05.15.09:197][580]LogPlayLevel: Creating play world package: /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTUTORIAL
+[2026.04.19-05.15.09:216][580]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019563s)
+[2026.04.19-05.15.09:216][580]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Fantastic_Dungeon_Pack/maps/FINALPROJECTUTORIAL.FINALPROJECTUTORIAL to /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTUTORIAL.FINALPROJECTUTORIAL (0.019611s)
+[2026.04.19-05.15.09:248][580]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2026.04.19-05.15.09:256][580]LogChaosDD: Creating Chaos Debug Draw Scene for world FINALPROJECTUTORIAL
+[2026.04.19-05.15.09:258][580]LogPlayLevel: PIE: World Init took: (0.002136s)
+[2026.04.19-05.15.09:259][580]LogAudio: Display: Creating Audio Device:                 Id: 75, Scope: Unique, Realtime: True
+[2026.04.19-05.15.09:259][580]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.04.19-05.15.09:259][580]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.04.19-05.15.09:259][580]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.04.19-05.15.09:260][580]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.04.19-05.15.09:260][580]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.04.19-05.15.09:260][580]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.04.19-05.15.09:260][580]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.04.19-05.15.09:260][580]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.04.19-05.15.09:260][580]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.04.19-05.15.09:260][580]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.04.19-05.15.09:260][580]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.04.19-05.15.09:262][580]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.04.19-05.15.09:288][580]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Logitech PRO X Gaming Headset)
+[2026.04.19-05.15.09:289][580]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.04.19-05.15.09:289][580]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.04.19-05.15.09:289][580]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.04.19-05.15.09:289][580]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=75
+[2026.04.19-05.15.09:289][580]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=75
+[2026.04.19-05.15.09:291][580]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=75
+[2026.04.19-05.15.09:291][580]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=75
+[2026.04.19-05.15.09:291][580]LogInit: FAudioDevice initialized with ID 75.
+[2026.04.19-05.15.09:291][580]LogAudio: Display: Audio Device (ID: 75) registered with world 'FINALPROJECTUTORIAL'.
+[2026.04.19-05.15.09:292][580]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 75
+[2026.04.19-05.15.09:298][580]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.04.19-05.15.09:399][580]LogWorld: Bringing World /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTUTORIAL.FINALPROJECTUTORIAL up for play (max tick rate 0) at 2026.04.18-23.15.09
+[2026.04.19-05.15.09:399][580]LogWorld: Bringing up level for play took: 0.101336
+[2026.04.19-05.15.09:402][580]LogOnline: OSS: Created online subsystem instance for: :Context_111
+[2026.04.19-05.15.09:412][580]PIE: Server logged in
+[2026.04.19-05.15.09:416][580]PIE: Play in editor total start time 0.22 seconds.
+[2026.04.19-05.15.09:484][581]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.04.19-05.15.15:497][998]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.19-05.15.15:498][998]LogWorld: BeginTearingDown for /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTUTORIAL
+[2026.04.19-05.15.15:498][998]LogWorld: UWorld::CleanupWorld for FINALPROJECTUTORIAL, bSessionEnded=true, bCleanupResources=true
+[2026.04.19-05.15.15:512][998]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.19-05.15.15:514][998]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.04.19-05.15.15:526][998]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.19-05.15.15:557][998]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.04.19-05.15.15:557][998]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 75
+[2026.04.19-05.15.15:557][998]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=75, StreamState=4
+[2026.04.19-05.15.15:559][998]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=75, StreamState=2
+[2026.04.19-05.15.15:563][998]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.19-05.15.15:572][998]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2026.04.19-05.15.15:624][999]LogPlayLevel: Display: Destroying online subsystem :Context_111
+[2026.04.19-05.15.23:663][585]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.04.19-05.15.23:676][585]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.04.19-05.15.23:678][585]LogPlayLevel: Creating play world package: /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTUTORIAL
+[2026.04.19-05.15.23:698][585]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020141s)
+[2026.04.19-05.15.23:698][585]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Fantastic_Dungeon_Pack/maps/FINALPROJECTUTORIAL.FINALPROJECTUTORIAL to /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTUTORIAL.FINALPROJECTUTORIAL (0.020195s)
+[2026.04.19-05.15.23:730][585]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2026.04.19-05.15.23:734][585]LogChaosDD: Creating Chaos Debug Draw Scene for world FINALPROJECTUTORIAL
+[2026.04.19-05.15.23:737][585]LogPlayLevel: PIE: World Init took: (0.002325s)
+[2026.04.19-05.15.23:738][585]LogAudio: Display: Creating Audio Device:                 Id: 76, Scope: Unique, Realtime: True
+[2026.04.19-05.15.23:738][585]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.04.19-05.15.23:738][585]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.04.19-05.15.23:738][585]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.04.19-05.15.23:739][585]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.04.19-05.15.23:739][585]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.04.19-05.15.23:739][585]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.04.19-05.15.23:739][585]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.04.19-05.15.23:739][585]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.04.19-05.15.23:739][585]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.04.19-05.15.23:739][585]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.04.19-05.15.23:739][585]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.04.19-05.15.23:741][585]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.04.19-05.15.23:766][585]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Logitech PRO X Gaming Headset)
+[2026.04.19-05.15.23:767][585]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.04.19-05.15.23:767][585]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.04.19-05.15.23:767][585]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.04.19-05.15.23:767][585]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=76
+[2026.04.19-05.15.23:767][585]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=76
+[2026.04.19-05.15.23:770][585]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=76
+[2026.04.19-05.15.23:770][585]LogInit: FAudioDevice initialized with ID 76.
+[2026.04.19-05.15.23:770][585]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=76
+[2026.04.19-05.15.23:770][585]LogAudio: Display: Audio Device (ID: 76) registered with world 'FINALPROJECTUTORIAL'.
+[2026.04.19-05.15.23:770][585]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 76
+[2026.04.19-05.15.23:776][585]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.04.19-05.15.23:876][585]LogWorld: Bringing World /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTUTORIAL.FINALPROJECTUTORIAL up for play (max tick rate 0) at 2026.04.18-23.15.23
+[2026.04.19-05.15.23:876][585]LogWorld: Bringing up level for play took: 0.100138
+[2026.04.19-05.15.23:879][585]LogOnline: OSS: Created online subsystem instance for: :Context_112
+[2026.04.19-05.15.23:890][585]PIE: Server logged in
+[2026.04.19-05.15.23:893][585]PIE: Play in editor total start time 0.218 seconds.
+[2026.04.19-05.15.23:951][586]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.04.19-05.15.25:477][687]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.19-05.15.25:477][687]LogWorld: BeginTearingDown for /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTUTORIAL
+[2026.04.19-05.15.25:477][687]LogWorld: UWorld::CleanupWorld for FINALPROJECTUTORIAL, bSessionEnded=true, bCleanupResources=true
+[2026.04.19-05.15.25:491][687]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.19-05.15.25:493][687]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.04.19-05.15.25:504][687]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.19-05.15.25:534][687]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.19-05.15.25:536][687]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 76
+[2026.04.19-05.15.25:536][687]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=76, StreamState=4
+[2026.04.19-05.15.25:538][687]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=76, StreamState=2
+[2026.04.19-05.15.25:551][687]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2026.04.19-05.15.25:602][688]LogPlayLevel: Display: Destroying online subsystem :Context_112
+[2026.04.19-05.15.39:925][667]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2026.04.19-05.15.41:184][734]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.04.19-05.15.41:195][734]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.04.19-05.15.41:246][734]LogPlayLevel: Creating play world package: /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTUTORIAL
+[2026.04.19-05.15.41:265][734]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019312s)
+[2026.04.19-05.15.41:265][734]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Fantastic_Dungeon_Pack/maps/FINALPROJECTUTORIAL.FINALPROJECTUTORIAL to /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTUTORIAL.FINALPROJECTUTORIAL (0.019366s)
+[2026.04.19-05.15.41:295][734]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2026.04.19-05.15.41:302][734]LogChaosDD: Creating Chaos Debug Draw Scene for world FINALPROJECTUTORIAL
+[2026.04.19-05.15.41:304][734]LogPlayLevel: PIE: World Init took: (0.002112s)
+[2026.04.19-05.15.41:305][734]LogAudio: Display: Creating Audio Device:                 Id: 77, Scope: Unique, Realtime: True
+[2026.04.19-05.15.41:305][734]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.04.19-05.15.41:305][734]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.04.19-05.15.41:305][734]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.04.19-05.15.41:305][734]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.04.19-05.15.41:305][734]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.04.19-05.15.41:305][734]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.04.19-05.15.41:307][734]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.04.19-05.15.41:307][734]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.04.19-05.15.41:307][734]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.04.19-05.15.41:307][734]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.04.19-05.15.41:307][734]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.04.19-05.15.41:309][734]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.04.19-05.15.41:335][734]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Logitech PRO X Gaming Headset)
+[2026.04.19-05.15.41:335][734]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.04.19-05.15.41:335][734]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.04.19-05.15.41:335][734]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.04.19-05.15.41:336][734]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=77
+[2026.04.19-05.15.41:336][734]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=77
+[2026.04.19-05.15.41:339][734]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=77
+[2026.04.19-05.15.41:339][734]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=77
+[2026.04.19-05.15.41:339][734]LogInit: FAudioDevice initialized with ID 77.
+[2026.04.19-05.15.41:339][734]LogAudio: Display: Audio Device (ID: 77) registered with world 'FINALPROJECTUTORIAL'.
+[2026.04.19-05.15.41:339][734]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 77
+[2026.04.19-05.15.41:344][734]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.04.19-05.15.41:450][734]LogWorld: Bringing World /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTUTORIAL.FINALPROJECTUTORIAL up for play (max tick rate 0) at 2026.04.18-23.15.41
+[2026.04.19-05.15.41:450][734]LogWorld: Bringing up level for play took: 0.105351
+[2026.04.19-05.15.41:453][734]LogOnline: OSS: Created online subsystem instance for: :Context_113
+[2026.04.19-05.15.41:463][734]PIE: Server logged in
+[2026.04.19-05.15.41:467][734]PIE: Play in editor total start time 0.271 seconds.
+[2026.04.19-05.15.41:525][735]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.04.19-05.15.49:183][262]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Fantastic_Dungeon_Pack/maps/FINALPROJECTLEVEL"
+[2026.04.19-05.15.49:183][262]LogNet: Browse: /Game/Fantastic_Dungeon_Pack/maps/FINALPROJECTLEVEL
+[2026.04.19-05.15.49:183][262]LogLoad: LoadMap: /Game/Fantastic_Dungeon_Pack/maps/FINALPROJECTLEVEL
+[2026.04.19-05.15.49:183][262]LogWorld: BeginTearingDown for /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTUTORIAL
+[2026.04.19-05.15.49:184][262]LogWorld: UWorld::CleanupWorld for FINALPROJECTUTORIAL, bSessionEnded=true, bCleanupResources=true
+[2026.04.19-05.15.49:199][262]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.19-05.15.49:232][262]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.04.19-05.15.49:241][262]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2026.04.19-05.15.49:248][262]LogStreaming: Display: FlushAsyncLoading(723): 1 QueuedPackages, 0 AsyncPackages
+[2026.04.19-05.15.49:400][262]LogAudio: Display: Audio Device (ID: 77) registered with world 'FINALPROJECTLEVEL'.
+[2026.04.19-05.15.49:400][262]LogChaosDD: Creating Chaos Debug Draw Scene for world FINALPROJECTLEVEL
+[2026.04.19-05.15.49:402][262]LogPlayLevel: PIE: World Init took: (0.002415s)
+[2026.04.19-05.15.49:403][262]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.04.19-05.15.49:612][262]LogActor: Loaded Actor (BP_PROP_lock_dungeon_GEN_VARIABLE_BP_PROP_lock_dungeon_C_CAT) with IsValid() == false
+[2026.04.19-05.15.49:614][262]LogActor: Loaded Actor (BP_PROP_lock_dungeon_GEN_VARIABLE_BP_PROP_lock_dungeon_C_CAT) with IsValid() == false
+[2026.04.19-05.15.49:723][262]LogWorld: Bringing World /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTLEVEL.FINALPROJECTLEVEL up for play (max tick rate 0) at 2026.04.18-23.15.49
+[2026.04.19-05.15.49:725][262]LogWorld: Bringing up level for play took: 0.322214
+[2026.04.19-05.15.49:738][262]LogLoad: Took 0.554795 seconds to LoadMap(/Game/Fantastic_Dungeon_Pack/maps/FINALPROJECTLEVEL)
+[2026.04.19-05.15.49:738][262]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Fantastic_Dungeon_Pack/maps/FINALPROJECTLEVEL
+[2026.04.19-05.15.49:885][263]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.04.19-05.16.06:387][316]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.19-05.16.06:387][316]LogWorld: BeginTearingDown for /Game/Fantastic_Dungeon_Pack/maps/UEDPIE_0_FINALPROJECTLEVEL
+[2026.04.19-05.16.06:388][316]LogWorld: UWorld::CleanupWorld for FINALPROJECTLEVEL, bSessionEnded=true, bCleanupResources=true
+[2026.04.19-05.16.06:404][316]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.19-05.16.06:409][316]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.04.19-05.16.06:421][316]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.19-05.16.06:461][316]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.19-05.16.06:461][316]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 77
+[2026.04.19-05.16.06:461][316]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=77, StreamState=4
+[2026.04.19-05.16.06:463][316]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=77, StreamState=2
+[2026.04.19-05.16.06:487][316]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2026.04.19-05.16.06:544][317]LogPlayLevel: Display: Destroying online subsystem :Context_113
+[2026.04.19-05.16.08:552][470]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2026.04.19-05.16.08:562][470]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.19-05.16.08:690][470]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2026.04.19-05.16.08:785][470]LogSavePackage: Moving output files for package: /Game/Fantastic_Dungeon_Pack/maps/FINALPROJECTUTORIAL
+[2026.04.19-05.16.08:787][470]LogSavePackage: Moving '../../../../../../Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Saved/FINALPROJECTUTORIALE48014EB4F8E1F985F95ABB3974571AD.tmp' to '../../../../../../Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Content/Fantastic_Dungeon_Pack/maps/FINALPROJECTUTORIAL.umap'
+[2026.04.19-05.16.08:806][470]LogFileHelpers: Saving map 'FINALPROJECTUTORIAL' took 0.179
+[2026.04.19-05.16.08:807][470]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_Trash] ([2] browsable assets)...
+[2026.04.19-05.16.08:849][470]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Trash.BP_Trash]
+[2026.04.19-05.16.08:850][470]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Trash]
+[2026.04.19-05.16.08:850][470]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Trash" FILE="../../../../../../Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Content/Blueprints/BP_Trash.uasset" SILENT=true
+[2026.04.19-05.16.08:868][470]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Trash
+[2026.04.19-05.16.08:869][470]LogSavePackage: Moving '../../../../../../Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Saved/BP_Trash96A3318048F0524A6CEFEDA04A1331FD.tmp' to '../../../../../../Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Content/Blueprints/BP_Trash.uasset'
+[2026.04.19-05.16.08:871][470]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/WBP_PlayerHUD] ([2] browsable assets)...
+[2026.04.19-05.16.08:876][470]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/WBP_PlayerHUD.WBP_PlayerHUD]
+[2026.04.19-05.16.08:876][470]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/WBP_PlayerHUD]
+[2026.04.19-05.16.08:876][470]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/WBP_PlayerHUD" FILE="../../../../../../Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Content/Blueprints/WBP_PlayerHUD.uasset" SILENT=true
+[2026.04.19-05.16.08:902][470]LogSavePackage: Moving output files for package: /Game/Blueprints/WBP_PlayerHUD
+[2026.04.19-05.16.08:903][470]LogSavePackage: Moving '../../../../../../Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Saved/WBP_PlayerHUD4995ECCC416615F031E141A5012190AF.tmp' to '../../../../../../Users/Norah/Documents/GitHub/ge_monorepo/Unreal/FinalProject/Content/Blueprints/WBP_PlayerHUD.uasset'
+[2026.04.19-05.16.08:916][470]LogFileHelpers: InternalPromptForCheckoutAndSave took 353.588 ms (total: 17.4 sec)
+[2026.04.19-05.16.08:978][470]LogContentValidation: Display: Starting to validate 3 assets
+[2026.04.19-05.16.08:978][470]LogContentValidation: Enabled validators:
+[2026.04.19-05.16.08:978][470]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.19-05.16.08:978][470]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.19-05.16.08:978][470]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.19-05.16.08:978][470]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.19-05.16.08:978][470]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.19-05.16.08:978][470]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.19-05.16.08:979][470]AssetCheck: /Game/Fantastic_Dungeon_Pack/maps/FINALPROJECTUTORIAL Validating asset
+[2026.04.19-05.16.08:979][470]AssetCheck: /Game/Blueprints/BP_Trash Validating asset
+[2026.04.19-05.16.08:981][470]AssetCheck: /Game/Blueprints/WBP_PlayerHUD Validating asset
+[2026.04.19-05.16.17:547][585]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 21202.425781
+[2026.04.19-05.16.18:547][588]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.19-05.16.18:548][588]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 21203.091797, Update Interval: 341.500305
